@@ -1,8 +1,8 @@
-<div class="tg-wrap"><table id="tg-O9OTh" style="undefined;table-layout: fixed; width: 1210px">
+<div class="tg-wrap"><table id="tg-2QTQO" style="undefined;table-layout: fixed; width: 961px">
 <colgroup>
-<col style="width: 164px">
-<col style="width: 905px">
-<col style="width: 141px">
+<col style="width: 203px">
+<col style="width: 563px">
+<col style="width: 195px">
 </colgroup>
 <thead>
   <tr>
@@ -14,7 +14,7 @@
 <tbody>
   <tr>
     <td>DR_NO</td>
-    <td>Division&nbsp;&nbsp;&nbsp;of Records Number: Official file number made up of a 2 digit year, area ID,&nbsp;&nbsp;&nbsp;and 5 digits</td>
+    <td>Division   of Records Number: Official file number made up of a 2 digit year, area ID, and 5 digits</td>
     <td>Plain Text</td>
   </tr>
   <tr>
