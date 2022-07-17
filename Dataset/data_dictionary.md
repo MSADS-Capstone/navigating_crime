@@ -1,4 +1,6 @@
-### Data Dictionary
+## Data Dictionary    
+
+### Los Angeles Crime  
 
 <div class="tg-wrap"><table id="tg-iu8FS" style="undefined;table-layout: fixed; width: 1003px">
 <colgroup>
@@ -153,6 +155,370 @@
     <td>LON</td>
     <td>Longtitude</td>
     <td>Number</td>
+  </tr>
+</tbody>
+</table></div>
+
+
+## Data Dictionary    
+
+### Los Angeles Streets
+
+
+<div class="tg-wrap"><table id="tg-nLUGa">
+<thead>
+  <tr>
+    <th>Field Name</th>
+    <th>Alias</th>
+    <th>Data Type</th>
+    <th>Allow Null</th>
+    <th>Domain</th>
+    <th>Default Value</th>
+    <th>Length</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>OBJECTID</td>
+    <td> </td>
+    <td>Object ID</td>
+    <td>FALSE</td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>Shape</td>
+    <td> </td>
+    <td>Geometry</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>FullName</td>
+    <td>FullName</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>255</td>
+  </tr>
+  <tr>
+    <td>Type</td>
+    <td>Type</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>40</td>
+  </tr>
+  <tr>
+    <td>Elevation</td>
+    <td>Elevation</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>Surface</td>
+    <td>Surface</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>Status</td>
+    <td>Status</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>DrivingDir</td>
+    <td>DrivingDir</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>From_L</td>
+    <td>From_L</td>
+    <td>Long</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>From_R</td>
+    <td>From_R</td>
+    <td>Long</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>To_L</td>
+    <td>To_L</td>
+    <td>Long</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>To_R</td>
+    <td>To_R</td>
+    <td>Long</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>Parity_L</td>
+    <td>Parity_L</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Parity_R</td>
+    <td>Parity_R</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>StPreDir</td>
+    <td>StPreDir</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>StPreMod</td>
+    <td>StPreMod</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>StPreType</td>
+    <td>StPreType</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>StArticle</td>
+    <td>StArticle</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>StName</td>
+    <td>StName</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>StPostType</td>
+    <td>StPostType</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>StPostDir</td>
+    <td>StPostDir</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>StPostMod</td>
+    <td>StPostMod</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>Zip_L</td>
+    <td>Zip_L</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Zip_R</td>
+    <td>Zip_R</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>LCity_L</td>
+    <td>LCity_L</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>LCity_R</td>
+    <td>LCity_R</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>NameCat_L</td>
+    <td>NameCat_L</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>NameCat_R</td>
+    <td>NameCat_R</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Accuracy</td>
+    <td>Accuracy</td>
+    <td>Double</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>Jurisdiction</td>
+    <td>Jurisdiction</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Source</td>
+    <td>Source</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>SourceID</td>
+    <td>SourceID</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>UpdateDate</td>
+    <td>UpdateDate</td>
+    <td>Date</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>MSAG_LCity</td>
+    <td>MSAG_LCity</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>MSAG_RCity</td>
+    <td>MSAG_RCity</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>MSAG_LESN</td>
+    <td>MSAG_LESN</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>MSAG_RESN</td>
+    <td>MSAG_RESN</td>
+    <td>Text</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Shape_Length</td>
+    <td> </td>
+    <td>Double</td>
+    <td>TRUE</td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
   </tr>
 </tbody>
 </table></div>
