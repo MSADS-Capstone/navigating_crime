@@ -1,8 +1,8 @@
-<div class="tg-wrap"><table id="tg-fFONv" style="undefined;table-layout: fixed; width: 837px">
+<div class="tg-wrap"><table id="tg-s0Efh" style="undefined;table-layout: fixed; width: 935px">
 <colgroup>
-<col style="width: 203px">
+<col style="width: 251px">
 <col style="width: 439px">
-<col style="width: 195px">
+<col style="width: 245px">
 </colgroup>
 <thead>
   <tr>
