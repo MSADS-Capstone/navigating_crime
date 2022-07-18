@@ -11,7 +11,7 @@ import zipfile
 
 
 client = pygsheets.authorize(service_account_file=r'C:\Users\Chris\Desktop\Python_CrimeData_Downloader\service_account.json')
-sheet = client.open_by_key('1lbh-GfM6o_X1oN6Xa8Rl2z_CZt828o-4AHXfXLWXQQQ') 
+sheet = client.open_by_key('enter_key_here') 
 wks = sheet.worksheet_by_title('GIS Data Sources')
 DataSources_df = wks.get_as_df()
 
