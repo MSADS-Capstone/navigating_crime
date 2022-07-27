@@ -3,7 +3,7 @@ LA City Walking Streets With Crimes Data Report
 File Contents
  
 No. of Rows in File: 183,362
-No. of Columns in File: 72
+No. of Columns in File: 81
  
 ID Column Information
 +----+--------------+------------------+	
@@ -11,9 +11,11 @@ ID Column Information
 |----+--------------+------------------|	
 |  0 | OBJECTID     | 183,362          |	
 |  1 | TARGET_FID   | 36,969           |	
-|  2 | JOIN_FID     | 61,329           |	
-|  3 | SourceID     | 36,593           |	
-|  4 | StreetOID    | 36,969           |	
+|  2 | TARGET_FID_1 | 183,362          |	
+|  3 | JOIN_FID     | 490              |	
+|  4 | SourceID     | 36,593           |	
+|  5 | StreetOID    | 36,969           |	
+|  6 | OBJECTID_1   | 21               |	
 +----+--------------+------------------+
  
 Zip Code Column Information
@@ -36,76 +38,85 @@ Column Data Types and Their Respective Null Counts
 +----+-------------------+-------------+--------------+----------------+	
 |    | Column/Variable   | Data Type   |   # of Nulls |   Percent Null |	
 |----+-------------------+-------------+--------------+----------------|	
-| 24 | StPostMod         | float64     |       183362 |            100 |	
-| 18 | StPreMod          | object      |       183359 |            100 |	
-| 66 | Crm_Cd_4          | float64     |       183332 |            100 |	
-| 23 | StPostDir         | object      |       182999 |            100 |	
-| 39 | MSAG_RESN         | float64     |       182517 |            100 |	
-| 38 | MSAG_LESN         | float64     |       182517 |            100 |	
-| 37 | MSAG_RCity        | object      |       182517 |            100 |	
-| 36 | MSAG_LCity        | object      |       182517 |            100 |	
-| 65 | Crm_Cd_3          | float64     |       182150 |             99 |	
-| 19 | StPreType         | object      |       181395 |             99 |	
-| 20 | StArticle         | object      |       179744 |             98 |	
-| 64 | Crm_Cd_2          | float64     |       153317 |             84 |	
-| 17 | StPreDir          | object      |        83241 |             45 |	
-| 68 | Cross_Street      | object      |        74575 |             41 |	
-| 12 | From_R            | float64     |        10784 |              6 |	
-| 14 | To_R              | float64     |        10773 |              6 |	
-| 11 | From_L            | float64     |        10409 |              6 |	
-| 13 | To_L              | float64     |        10399 |              6 |	
-| 22 | StPostType        | object      |         6189 |              3 |	
-| 60 | Weapon_Desc       | object      |         3274 |              2 |	
-| 59 | Weapon_Used_Cd    | float64     |         3274 |              2 |	
-| 15 | Parity_L          | object      |         1613 |              1 |	
-| 29 | NameCat_L         | object      |         1613 |              1 |	
-| 16 | Parity_R          | object      |         1560 |              1 |	
-| 30 | NameCat_R         | object      |         1560 |              1 |	
-| 21 | StName            | object      |         1357 |              1 |	
-|  5 | FullName          | object      |         1357 |              1 |	
-| 25 | Zip_L             | float64     |          264 |              0 |	
-| 53 | Mocodes           | object      |          219 |              0 |	
-| 26 | Zip_R             | float64     |          211 |              0 |	
-| 56 | Vict_Descent      | object      |          171 |              0 |	
-| 55 | Vict_Sex          | object      |          167 |              0 |	
-| 32 | Jurisdiction      | object      |           28 |              0 |	
-| 28 | LCity_R           | object      |           21 |              0 |	
-| 27 | LCity_L           | object      |            8 |              0 |	
-| 61 | Status_1          | object      |            0 |              0 |	
-| 62 | Status_Desc       | object      |            0 |              0 |	
-| 58 | Premis_Desc       | object      |            0 |              0 |	
-| 69 | LAT               | float64     |            0 |              0 |	
-| 70 | LON               | float64     |            0 |              0 |	
-| 57 | Premis_Cd         | float64     |            0 |              0 |	
-| 49 | Rpt_Dist_No       | float64     |            0 |              0 |	
-| 67 | LOCATION          | object      |            0 |              0 |	
-| 54 | Vict_Age          | float64     |            0 |              0 |	
-| 63 | Crm_Cd_1          | float64     |            0 |              0 |	
-| 52 | Crm_Cd_Desc       | object      |            0 |              0 |	
-| 51 | Crm_Cd            | float64     |            0 |              0 |	
-| 50 | Part_1_2          | float64     |            0 |              0 |	
+| 26 | StPostMod         | float64     |       183362 |            100 |	
+| 20 | StPreMod          | object      |       183359 |            100 |	
+| 68 | Crm_Cd_4          | float64     |       183332 |            100 |	
+| 25 | StPostDir         | object      |       182999 |            100 |	
+| 41 | MSAG_RESN         | float64     |       182517 |            100 |	
+| 39 | MSAG_RCity        | object      |       182517 |            100 |	
+| 38 | MSAG_LCity        | object      |       182517 |            100 |	
+| 40 | MSAG_LESN         | float64     |       182517 |            100 |	
+| 67 | Crm_Cd_3          | float64     |       182150 |             99 |	
+| 21 | StPreType         | object      |       181395 |             99 |	
+| 22 | StArticle         | object      |       179744 |             98 |	
+| 66 | Crm_Cd_2          | float64     |       153317 |             84 |	
+| 19 | StPreDir          | object      |        83241 |             45 |	
+| 70 | Cross_Street      | object      |        74575 |             41 |	
+| 14 | From_R            | float64     |        10784 |              6 |	
+| 16 | To_R              | float64     |        10773 |              6 |	
+| 13 | From_L            | float64     |        10409 |              6 |	
+| 15 | To_L              | float64     |        10399 |              6 |	
+| 24 | StPostType        | object      |         6189 |              3 |	
+| 62 | Weapon_Desc       | object      |         3274 |              2 |	
+| 61 | Weapon_Used_Cd    | float64     |         3274 |              2 |	
+| 17 | Parity_L          | object      |         1613 |              1 |	
+| 31 | NameCat_L         | object      |         1613 |              1 |	
+| 18 | Parity_R          | object      |         1560 |              1 |	
+| 32 | NameCat_R         | object      |         1560 |              1 |	
+|  7 | FullName          | object      |         1357 |              1 |	
+| 23 | StName            | object      |         1357 |              1 |	
+| 73 | OBJECTID_1        | float64     |          686 |              0 |	
+| 77 | PERIMETER         | float64     |          686 |              0 |	
+| 76 | AREA_1            | float64     |          686 |              0 |	
+| 74 | APREC             | object      |          686 |              0 |	
+| 75 | PREC              | float64     |          686 |              0 |	
+| 79 | Shape_Length_1    | float64     |          686 |              0 |	
+| 78 | SHAPE_Leng        | float64     |          686 |              0 |	
+| 27 | Zip_L             | float64     |          264 |              0 |	
+| 55 | Mocodes           | object      |          219 |              0 |	
+| 28 | Zip_R             | float64     |          211 |              0 |	
+| 58 | Vict_Descent      | object      |          171 |              0 |	
+| 57 | Vict_Sex          | object      |          167 |              0 |	
+| 34 | Jurisdiction      | object      |           28 |              0 |	
+| 30 | LCity_R           | object      |           21 |              0 |	
+| 29 | LCity_L           | object      |            8 |              0 |	
+| 65 | Crm_Cd_1          | float64     |            0 |              0 |	
+| 64 | Status_Desc       | object      |            0 |              0 |	
+| 63 | Status_1          | object      |            0 |              0 |	
+| 69 | LOCATION          | object      |            0 |              0 |	
+| 60 | Premis_Desc       | object      |            0 |              0 |	
+| 59 | Premis_Cd         | float64     |            0 |              0 |	
+| 53 | Crm_Cd            | float64     |            0 |              0 |	
+| 71 | LAT               | float64     |            0 |              0 |	
+| 56 | Vict_Age          | float64     |            0 |              0 |	
+| 72 | LON               | float64     |            0 |              0 |	
+| 54 | Crm_Cd_Desc       | object      |            0 |              0 |	
 |  0 | OBJECTID          | int64       |            0 |              0 |	
-| 48 | AREA_NAME         | object      |            0 |              0 |	
-| 33 | Source            | object      |            0 |              0 |	
+| 52 | Part_1_2          | float64     |            0 |              0 |	
+| 35 | Source            | object      |            0 |              0 |	
 |  2 | Join_Count        | int64       |            0 |              0 |	
 |  3 | TARGET_FID        | int64       |            0 |              0 |	
-|  4 | JOIN_FID          | int64       |            0 |              0 |	
-|  6 | Type              | object      |            0 |              0 |	
-|  7 | Elevation         | object      |            0 |              0 |	
-|  8 | Surface           | object      |            0 |              0 |	
-|  9 | Status            | object      |            0 |              0 |	
-| 10 | DrivingDir        | object      |            0 |              0 |	
-| 31 | Accuracy          | float64     |            0 |              0 |	
-| 34 | SourceID          | object      |            0 |              0 |	
-| 47 | AREA              | float64     |            0 |              0 |	
-| 35 | UpdateDate        | object      |            0 |              0 |	
+|  4 | Join_Count_1      | int64       |            0 |              0 |	
+|  5 | TARGET_FID_1      | int64       |            0 |              0 |	
+|  6 | JOIN_FID          | int64       |            0 |              0 |	
+|  8 | Type              | object      |            0 |              0 |	
+|  9 | Elevation         | object      |            0 |              0 |	
+| 10 | Surface           | object      |            0 |              0 |	
+| 11 | Status            | object      |            0 |              0 |	
+| 12 | DrivingDir        | object      |            0 |              0 |	
+| 33 | Accuracy          | float64     |            0 |              0 |	
+| 36 | SourceID          | object      |            0 |              0 |	
+| 51 | Rpt_Dist_No       | float64     |            0 |              0 |	
+| 37 | UpdateDate        | object      |            0 |              0 |	
 |  1 | Shape             | object      |            0 |              0 |	
-| 40 | Crime_Cost        | float64     |            0 |              0 |	
-| 41 | StreetOID         | int64       |            0 |              0 |	
-| 42 | Field1            | float64     |            0 |              0 |	
-| 43 | DR_NO             | float64     |            0 |              0 |	
-| 44 | Date_Rptd         | object      |            0 |              0 |	
-| 45 | DATE_OCC          | object      |            0 |              0 |	
-| 46 | TIME_OCC          | float64     |            0 |              0 |	
-| 71 | Shape_Length      | float64     |            0 |              0 |	
+| 42 | Crime_Cost        | float64     |            0 |              0 |	
+| 43 | StreetOID         | int64       |            0 |              0 |	
+| 44 | Field1            | float64     |            0 |              0 |	
+| 45 | DR_NO             | float64     |            0 |              0 |	
+| 46 | Date_Rptd         | object      |            0 |              0 |	
+| 47 | DATE_OCC          | object      |            0 |              0 |	
+| 48 | TIME_OCC          | float64     |            0 |              0 |	
+| 49 | AREA              | float64     |            0 |              0 |	
+| 50 | AREA_NAME         | object      |            0 |              0 |	
+| 80 | Shape_Length      | float64     |            0 |              0 |	
 +----+-------------------+-------------+--------------+----------------+
