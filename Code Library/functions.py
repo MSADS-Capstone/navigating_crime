@@ -1,10 +1,20 @@
 ####################################
-## import the requisite libraries ##
+##   Data Types Report Function   ##
 ####################################
 
+# import the requisite libraries 
 import pandas as pd # import pandas library
 
+# function for running a 
 def data_types(df):
+    '''
+    Inputs:
+        df: dataframe to run the datatypes report on
+    Outputs:
+        dat_type: report saved out to a dataframe showing column name, 
+                  data type, count of null values in the dataframe, and 
+                  percentage of null values in the dataframe
+    '''
     # Features' Data Types and Their Respective Null Counts
     dat_type = df.dtypes
 
@@ -29,21 +39,37 @@ def data_types(df):
     return dat_type
 
 ####################################
-## import the requisite libraries ##
+##   Bar Graph Plotting Function  ##
 ####################################
 
+# import the requisite libraries
 import pandas as pd # import pandas library
+import matplotlib.pyplot as plt # import plotting library
 
-# import plotting library
-import matplotlib.pyplot as plt
-
-# function definition for horizontal barplot of any column in this dataframe
+# function definition for bar graph of any column in this dataframe
 def bar_plot(x, y, df, asc, kind, title, rotation, xlabel, ylabel, column, n):
+    '''
+    Inputs:
+    x: passed into figsize as width of the bar graph
+    y: passed into figsize as height of the bar graph
+    df: dataframe to pass into the function
+    asc: ascending order of the data (bool)
+    kind: type of barchart (regular or barh for horizontal)
+    title: title of the plot
+    rotation: rotation of axes labels
+    xlabel: x-axis label
+    ylabel: y-axis label
+    column: column of interest
+    n: top number of rows of interest for inspecting the column; some columns
+       may have a large number of observations; in these particular cases, it is
+       best to limit the number of observations for analysis.
+    '''
+    # set figure size
+    fig, axes = plt.subplots(figsize=(x,y))
     # sort values in ascending order and generate top n rows
     bar_plot = df[column].value_counts().sort_values(ascending=asc).head(n)  
-    bar_plot.plot(kind=kind, width=0.9, figsize=(x,y)) # plot bar graph
+    bar_plot.plot(kind=kind, width=0.9) # plot horizontal bar graph
     plt.title(title) # set plot title
     plt.xticks(rotation=rotation) # rotate x-axis labels to 90 degrees
     plt.xlabel(xlabel) # set plot x-axis label
     plt.ylabel(ylabel) # set plot y-axis label
-plt.show()
