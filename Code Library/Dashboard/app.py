@@ -7,12 +7,11 @@ from sklearn import metrics
 import pickle
 app = Dash(__name__)
 
-#df = pd.read_pickle('stacked_cols.pkl')
 with open('freq_cols.pkl', 'rb') as f:
     freq_cols = pickle.load(f)
 
 df_roc = pd.read_csv('models.csv')
-df_preds_eda = pd.read_csv('df_preds_eda.csv')
+df_preds_eda = pd.read_csv('df_preds_roc.csv')
 
 server = app.server
 
@@ -24,18 +23,15 @@ options = {'age_bin': 'Age bin',  'Type': 'Type', 'Victim_Sex': 'Victim Sex',
 
 options_preds = df_preds_eda.drop(columns='Predictions').columns.tolist()
 
-
-
-
 app.layout = html.Div(children=[
-    html.H1(children="Jose and Leon's Dashboard"),
+    html.H1(children="Dashboard - Identifying Safer Pedestrian Routes in Los Angeles"),
     html.Div([
         html.Div([html.H2(children="Absolute and Normalized Bar Graphs")], style={'text-align': 'center'}),
         dcc.Dropdown(id='col', options=[{'label': val, 'value': key} for key, val in options.items()], value='age_bin'),
         dcc.Graph(id='bar-graph' )
         ], style={'width': '50%', 'display': 'inline-block'}),
     html.Div([
-        html.Div([html.H2(children="Absolute and Normalized Bar Graphs")], style={'text-align': 'center'}),
+        html.Div([html.H2(children="ROC Curves")], style={'text-align': 'center'}),
         dcc.Dropdown(id='model', options=models, value=models, multi=True),
         dcc.Graph(id='roc-graph' )
         ], style={'width': '50%', 'display': 'inline-block'}),
