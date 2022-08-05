@@ -153,7 +153,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.8712849,Minor,20-25,X,Unknown,Morning,February,Harbor
 0,0.034341805,Minor,55-60,F,Hispanic/Latin/Mexican,Evening,April,Hollenbeck
 0,0.094245695,Minor,55-60,F,Hispanic/Latin/Mexican,Morning,January,Hollenbeck
-1,0.9366487,Primary,5-10,M,White,Evening,June,Central
+1,0.9366487,Primary,05-10,M,White,Evening,June,Central
 1,0.9212747,Minor,10-15,M,Hispanic/Latin/Mexican,Morning,March,Newton
 0,0.092114136,Minor,25-30,M,Hispanic/Latin/Mexican,Morning,June,Olympic
 0,0.9294709,Minor,20-25,X,Black,Morning,May,Hollywood
@@ -536,7 +536,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.92423993,Primary,0-5,F,Hispanic/Latin/Mexican,Evening,July,Olympic
 1,0.261955,Minor,45-50,M,Hispanic/Latin/Mexican,Afternoon,June,Southwest
 0,0.09563373,Minor,50-55,M,Hispanic/Latin/Mexican,Morning,June,N_Hollywood
-1,0.9871984,Minor,5-10,M,Hispanic/Latin/Mexican,Evening,May,Southeast
+1,0.9871984,Minor,05-10,M,Hispanic/Latin/Mexican,Evening,May,Southeast
 1,0.35922387,Primary,35-40,F,Hispanic/Latin/Mexican,Night,April,Harbor
 1,0.6768174,Minor,25-30,M,Hispanic/Latin/Mexican,Afternoon,January,Central
 1,0.8898534,Primary,35-40,F,Hispanic/Latin/Mexican,Afternoon,January,Mission
@@ -607,7 +607,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.9808071,Minor,35-40,M,Hispanic/Latin/Mexican,Evening,February,Central
 0,0.011737115,Primary,35-40,F,White,Afternoon,May,West_LA
 1,0.96771705,Minor,0-5,X,Unknown,Afternoon,March,Pacific
-1,0.88840663,Minor,5-10,F,White,Evening,February,Rampart
+1,0.88840663,Minor,05-10,F,White,Evening,February,Rampart
 1,0.8787673,Primary,30-35,M,Hispanic/Latin/Mexican,Morning,June,Hollywood
 1,0.94332576,Minor,55-60,M,Hispanic/Latin/Mexican,Afternoon,March,77th_Street
 1,0.9606974,Primary,20-25,F,Black,Afternoon,May,77th_Street
@@ -1132,7 +1132,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.6309034,Minor,30-35,F,Hispanic/Latin/Mexican,Evening,January,Olympic
 0,0.2233334,Minor,35-40,M,Hispanic/Latin/Mexican,Evening,June,Wilshire
 0,0.15806897,Primary,30-35,F,Hispanic/Latin/Mexican,Afternoon,June,Southeast
-0,0.08487485,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,March,Southwest
+0,0.08487485,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,March,Southwest
 1,0.88905865,Primary,25-30,F,Black,Evening,April,Van_Nuys
 0,0.13259797,Primary,45-50,M,Other,Morning,March,Central
 1,0.8626445,Secondary,30-35,M,Hispanic/Latin/Mexican,Morning,May,Central
@@ -1316,9 +1316,9 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.036195878,Minor,20-25,F,Hispanic/Latin/Mexican,Night,June,N_Hollywood
 0,0.011505236,Primary,50-55,F,Black,Morning,May,Pacific
 1,0.9428894,Minor,45-50,M,Black,Afternoon,June,77th_Street
-1,0.88840663,Minor,5-10,F,White,Evening,February,Rampart
+1,0.88840663,Minor,05-10,F,White,Evening,February,Rampart
 1,0.9643241,Primary,55-60,M,Hispanic/Latin/Mexican,Evening,June,Hollywood
-0,0.91084826,Minor,5-10,M,Hispanic/Latin/Mexican,Morning,February,Rampart
+0,0.91084826,Minor,05-10,M,Hispanic/Latin/Mexican,Morning,February,Rampart
 0,0.06129348,Secondary,40-45,F,Black,Afternoon,May,Central
 0,0.04154178,Secondary,0-5,X,Unknown,Night,May,Southeast
 0,0.9804755,Primary,0-5,M,White,Morning,February,Central
@@ -1515,7 +1515,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.7654118,Minor,45-50,F,White,Morning,February,Hollywood
 0,0.10908117,Primary,35-40,M,Hispanic/Latin/Mexican,Afternoon,May,Northeast
 1,0.98810786,Primary,25-30,M,Black,Morning,May,Newton
-0,0.027709518,Minor,5-10,F,Hispanic/Latin/Mexican,Morning,January,Southwest
+0,0.027709518,Minor,05-10,F,Hispanic/Latin/Mexican,Morning,January,Southwest
 1,0.9702655,Minor,35-40,M,Hispanic/Latin/Mexican,Evening,June,77th_Street
 1,0.95606095,Primary,45-50,M,Hispanic/Latin/Mexican,Evening,February,Hollywood
 1,0.862086,Primary,25-30,M,Hispanic/Latin/Mexican,Evening,July,77th_Street
@@ -1807,7 +1807,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.9043579,Minor,25-30,F,White,Afternoon,March,Pacific
 1,0.9874464,Minor,45-50,M,Hispanic/Latin/Mexican,Morning,June,77th_Street
 0,0.16685663,Minor,25-30,F,Black,Morning,April,Southwest
-1,0.8991768,Minor,5-10,M,Black,Evening,March,Southwest
+1,0.8991768,Minor,05-10,M,Black,Evening,March,Southwest
 0,0.06527025,Primary,35-40,M,Hispanic/Latin/Mexican,Afternoon,May,Harbor
 1,0.80202,Minor,55-60,F,Black,Morning,February,Southwest
 0,0.08741315,Minor,40-45,M,Hispanic/Latin/Mexican,Afternoon,April,Topanga
@@ -1997,7 +1997,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.9364261,Minor,35-40,M,Hispanic/Latin/Mexican,Night,July,Southwest
 1,0.91323304,Secondary,40-45,M,White,Morning,June,Central
 1,0.82116604,Primary,25-30,M,Hispanic/Latin/Mexican,Morning,June,Rampart
-0,0.006597508,Minor,5-10,F,Hispanic/Latin/Mexican,Afternoon,May,Foothill
+0,0.006597508,Minor,05-10,F,Hispanic/Latin/Mexican,Afternoon,May,Foothill
 1,0.921324,Minor,0-5,M,Black,Afternoon,February,Southwest
 1,0.94947374,Minor,90-95,F,White,Afternoon,January,Wilshire
 1,0.87063134,Minor,10-15,M,Hispanic/Latin/Mexican,Afternoon,January,Newton
@@ -2080,7 +2080,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.96520686,Primary,20-25,M,Black,Afternoon,April,Wilshire
 0,0.2887709,Primary,50-55,M,White,Morning,July,West_LA
 0,0.96159273,Minor,30-35,M,Hispanic/Latin/Mexican,Morning,June,Mission
-1,0.9401713,Primary,5-10,X,Unknown,Afternoon,January,Harbor
+1,0.9401713,Primary,05-10,X,Unknown,Afternoon,January,Harbor
 0,0.030168213,Minor,0-5,X,Unknown,Evening,March,Northeast
 1,0.92667973,Secondary,50-55,M,Hispanic/Latin/Mexican,Afternoon,June,Newton
 1,0.9637082,Minor,30-35,M,Hispanic/Latin/Mexican,Morning,March,77th_Street
@@ -2167,7 +2167,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.7209007,Minor,30-35,F,Hispanic/Latin/Mexican,Morning,May,Southwest
 1,0.95845115,Minor,20-25,M,Black,Evening,February,Central
 1,0.22838654,Primary,30-35,M,Black,Morning,April,N_Hollywood
-1,0.742533,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,February,Foothill
+1,0.742533,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,February,Foothill
 1,0.85952866,Minor,40-45,M,Black,Morning,June,Wilshire
 0,0.94591653,Primary,20-25,F,Hispanic/Latin/Mexican,Night,February,West_Valley
 0,0.2537424,Primary,35-40,M,Hispanic/Latin/Mexican,Afternoon,March,West_LA
@@ -2593,7 +2593,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.011921429,Primary,10-15,F,Hispanic/Latin/Mexican,Afternoon,February,Olympic
 1,0.9664149,Minor,30-35,M,Black,Afternoon,January,Southeast
 0,0.28506073,Minor,25-30,M,Other,Morning,April,Van_Nuys
-1,0.88840663,Minor,5-10,F,White,Evening,February,Rampart
+1,0.88840663,Minor,05-10,F,White,Evening,February,Rampart
 1,0.17815936,Primary,60-65,M,Black,Morning,June,Rampart
 1,0.9516317,Primary,40-45,M,Hispanic/Latin/Mexican,Afternoon,April,Southeast
 1,0.9019645,Secondary,30-35,F,Hispanic/Latin/Mexican,Afternoon,May,Wilshire
@@ -2838,7 +2838,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.7381117,Minor,15-20,M,Other,Evening,May,Olympic
 0,0.859,Minor,50-55,M,Black,Night,February,Rampart
 0,0.10060738,Minor,0-5,X,Unknown,Morning,March,Wilshire
-0,0.02826758,Minor,5-10,F,Hispanic/Latin/Mexican,Afternoon,January,Rampart
+0,0.02826758,Minor,05-10,F,Hispanic/Latin/Mexican,Afternoon,January,Rampart
 1,0.8434942,Minor,25-30,M,Black,Morning,March,Central
 1,0.9382395,Minor,55-60,M,Hispanic/Latin/Mexican,Afternoon,April,Harbor
 0,0.07219647,Primary,45-50,M,Hispanic/Latin/Mexican,Morning,May,N_Hollywood
@@ -3234,7 +3234,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.37033424,Primary,15-20,F,Black,Afternoon,January,77th_Street
 0,0.066113316,Minor,35-40,F,Hispanic/Latin/Mexican,Morning,May,77th_Street
 0,0.021152528,Minor,15-20,F,Hispanic/Latin/Mexican,Morning,February,Foothill
-0,0.17130975,Minor,5-10,M,Hispanic/Latin/Mexican,Evening,June,77th_Street
+0,0.17130975,Minor,05-10,M,Hispanic/Latin/Mexican,Evening,June,77th_Street
 0,0.1477768,Secondary,25-30,F,Hispanic/Latin/Mexican,Morning,April,Southeast
 1,0.17815936,Primary,60-65,M,Black,Morning,June,Rampart
 0,0.31036493,Minor,20-25,F,Black,Morning,June,77th_Street
@@ -3415,7 +3415,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.17887306,Minor,30-35,M,Hispanic/Latin/Mexican,Afternoon,April,West_Valley
 1,0.86512774,Secondary,35-40,F,White,Evening,May,N_Hollywood
 0,0.017503947,Primary,30-35,F,Black,Afternoon,July,Southeast
-0,0.102183774,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,April,77th_Street
+0,0.102183774,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,April,77th_Street
 0,0.03108373,Secondary,25-30,F,White,Afternoon,March,West_LA
 1,0.92072153,Primary,15-20,F,Hispanic/Latin/Mexican,Afternoon,June,77th_Street
 1,0.9912732,Primary,0-5,M,Black,Morning,January,Central
@@ -3991,7 +3991,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.9392453,Primary,35-40,M,Hispanic/Latin/Mexican,Night,February,Hollywood
 1,0.9686077,Primary,40-45,M,Hispanic/Latin/Mexican,Evening,March,Central
 0,0.047041826,Minor,15-20,F,Hispanic/Latin/Mexican,Afternoon,May,Newton
-0,0.016984792,Secondary,5-10,M,Black,Afternoon,January,77th_Street
+0,0.016984792,Secondary,05-10,M,Black,Afternoon,January,77th_Street
 1,0.90227336,Minor,50-55,M,White,Evening,April,Pacific
 1,0.96255666,Primary,20-25,M,Other,Afternoon,January,West_Valley
 1,0.973893,Minor,15-20,M,Hispanic/Latin/Mexican,Morning,January,Rampart
@@ -4339,7 +4339,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.9576345,Minor,30-35,F,Black,Morning,February,Rampart
 0,0.1477768,Primary,25-30,F,Hispanic/Latin/Mexican,Morning,April,Southeast
 0,0.045719787,Primary,10-15,F,Hispanic/Latin/Mexican,Afternoon,May,Southeast
-1,0.9185268,Minor,5-10,F,Black,Afternoon,March,West_Valley
+1,0.9185268,Minor,05-10,F,Black,Afternoon,March,West_Valley
 0,0.076917544,Minor,15-20,F,Hispanic/Latin/Mexican,Afternoon,June,Olympic
 1,0.81798905,Minor,40-45,M,Hispanic/Latin/Mexican,Evening,June,Van_Nuys
 0,0.47079915,Minor,40-45,M,Hispanic/Latin/Mexican,Evening,January,Hollenbeck
@@ -5089,7 +5089,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.061010983,Primary,30-35,F,White,Morning,March,Hollywood
 1,0.98413545,Minor,30-35,F,Other,Morning,January,Rampart
 1,0.708471,Minor,20-25,F,Other Asian,Evening,February,Olympic
-1,0.9185268,Minor,5-10,F,Black,Afternoon,March,West_Valley
+1,0.9185268,Minor,05-10,F,Black,Afternoon,March,West_Valley
 1,0.96853226,Secondary,25-30,M,Other,Night,June,Hollywood
 1,0.9096685,Primary,10-15,M,Hispanic/Latin/Mexican,Evening,April,77th_Street
 1,0.008250343,Minor,25-30,F,Other,Morning,May,West_LA
@@ -5410,7 +5410,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.89590627,Minor,35-40,M,Hispanic/Latin/Mexican,Afternoon,June,Olympic
 0,0.09596292,Primary,50-55,F,Hispanic/Latin/Mexican,Morning,July,Wilshire
 0,0.10735986,Minor,45-50,M,Black,Afternoon,January,Topanga
-1,0.5248482,Secondary,5-10,M,Hispanic/Latin/Mexican,Evening,January,Newton
+1,0.5248482,Secondary,05-10,M,Hispanic/Latin/Mexican,Evening,January,Newton
 0,0.014674635,Minor,0-5,X,Unknown,Evening,March,Pacific
 1,0.90663564,Minor,15-20,M,Hispanic/Latin/Mexican,Afternoon,March,Newton
 0,0.83503884,Minor,30-35,X,Unknown,Night,May,Hollywood
@@ -5751,7 +5751,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.6038961,Primary,35-40,M,Hispanic/Latin/Mexican,Afternoon,June,Olympic
 0,0.0036153453,Primary,20-25,F,Hispanic/Latin/Mexican,Afternoon,January,N_Hollywood
 1,0.4247984,Minor,30-35,M,Black,Morning,April,Hollywood
-1,0.08323383,Secondary,5-10,M,Hispanic/Latin/Mexican,Evening,April,Van_Nuys
+1,0.08323383,Secondary,05-10,M,Hispanic/Latin/Mexican,Evening,April,Van_Nuys
 0,0.13876496,Primary,40-45,F,Black,Evening,June,Newton
 1,0.8269855,Primary,10-15,M,Black,Evening,February,Topanga
 1,0.965674,Primary,20-25,F,Hispanic/Latin/Mexican,Morning,January,Central
@@ -5813,7 +5813,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.98148924,Minor,30-35,M,White,Night,January,Wilshire
 1,0.80509007,Primary,40-45,F,Hispanic/Latin/Mexican,Morning,April,Rampart
 0,0.067857794,Minor,45-50,F,Hispanic/Latin/Mexican,Afternoon,May,Newton
-1,0.7577203,Minor,5-10,M,Other,Afternoon,April,Mission
+1,0.7577203,Minor,05-10,M,Other,Afternoon,April,Mission
 1,0.7287732,Minor,55-60,M,Hispanic/Latin/Mexican,Evening,March,77th_Street
 1,0.626495,Primary,15-20,F,Black,Morning,January,Devonshire
 1,0.6406906,Minor,35-40,M,White,Morning,April,Rampart
@@ -5920,7 +5920,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.07829492,Secondary,20-25,X,Unknown,Morning,February,Southwest
 0,0.306225,Minor,40-45,F,Hispanic/Latin/Mexican,Afternoon,March,N_Hollywood
 0,0.07189056,Primary,20-25,F,Hispanic/Latin/Mexican,Night,April,Olympic
-1,0.5248482,Minor,5-10,M,Hispanic/Latin/Mexican,Evening,January,Newton
+1,0.5248482,Minor,05-10,M,Hispanic/Latin/Mexican,Evening,January,Newton
 1,0.3662222,Minor,40-45,M,Hispanic/Latin/Mexican,Afternoon,July,Rampart
 1,0.93187815,Primary,25-30,M,Black,Morning,February,77th_Street
 1,0.78680605,Secondary,0-5,F,Hispanic/Latin/Mexican,Afternoon,March,Rampart
@@ -6122,7 +6122,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.9611119,Minor,30-35,F,Black,Night,May,Southwest
 1,0.085971884,Minor,45-50,M,Other,Afternoon,April,West_Valley
 1,0.6910621,Minor,30-35,F,Hispanic/Latin/Mexican,Evening,February,Olympic
-1,0.8991768,Minor,5-10,M,Black,Evening,March,Southwest
+1,0.8991768,Minor,05-10,M,Black,Evening,March,Southwest
 0,0.9500663,Minor,30-35,F,Black,Afternoon,June,77th_Street
 1,0.98293865,Secondary,15-20,M,Other,Morning,June,Newton
 1,0.13385035,Minor,15-20,F,Black,Evening,June,Southwest
@@ -6875,7 +6875,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.93057585,Minor,35-40,M,Hispanic/Latin/Mexican,Afternoon,July,Southwest
 1,0.93413264,Minor,25-30,M,White,Morning,January,Hollywood
 0,0.42887595,Minor,25-30,F,Black,Afternoon,June,Newton
-0,0.049874436,Minor,5-10,F,Hispanic/Latin/Mexican,Afternoon,March,Rampart
+0,0.049874436,Minor,05-10,F,Hispanic/Latin/Mexican,Afternoon,March,Rampart
 1,0.6537102,Primary,50-55,M,White,Afternoon,February,Olympic
 0,0.09494489,Minor,20-25,F,Hispanic/Latin/Mexican,Afternoon,May,Hollywood
 1,0.90227336,Minor,50-55,M,White,Evening,April,Pacific
@@ -7130,7 +7130,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.9139616,Secondary,35-40,M,White,Morning,April,West_Valley
 0,0.06440585,Minor,30-35,M,Other,Morning,February,77th_Street
 1,0.79868853,Primary,35-40,F,Hispanic/Latin/Mexican,Afternoon,February,N_Hollywood
-0,0.051116586,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,March,Hollenbeck
+0,0.051116586,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,March,Hollenbeck
 0,0.15289202,Primary,40-45,M,White,Afternoon,April,N_Hollywood
 1,0.8689519,Primary,25-30,M,Black,Afternoon,June,Southeast
 0,0.13387494,Minor,40-45,F,Hispanic/Latin/Mexican,Afternoon,April,Northeast
@@ -7245,7 +7245,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.47352034,Minor,25-30,M,Hispanic/Latin/Mexican,Afternoon,January,Newton
 1,0.9708054,Primary,40-45,M,White,Afternoon,March,Wilshire
 1,0.7894382,Private Road,55-60,M,Hispanic/Latin/Mexican,Evening,February,Hollenbeck
-0,0.024532236,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,May,Northeast
+0,0.024532236,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,May,Northeast
 0,0.38308722,Primary,20-25,F,Hispanic/Latin/Mexican,Morning,June,Wilshire
 1,0.90617293,Minor,30-35,M,White,Afternoon,February,Wilshire
 1,0.85061926,Minor,60-65,M,Black,Afternoon,June,Hollywood
@@ -7924,7 +7924,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.9345899,Minor,20-25,M,Hispanic/Latin/Mexican,Evening,March,Olympic
 0,0.08001168,Primary,25-30,F,Hispanic/Latin/Mexican,Night,May,Hollenbeck
 0,0.6007302,Minor,25-30,F,Other,Evening,February,Hollywood
-1,0.9774868,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,April,Southeast
+1,0.9774868,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,April,Southeast
 1,0.86165035,Primary,15-20,M,Hispanic/Latin/Mexican,Afternoon,June,Southwest
 1,0.09859711,Minor,25-30,M,Hispanic/Latin/Mexican,Afternoon,February,Mission
 1,0.82069063,Primary,45-50,F,Hispanic/Latin/Mexican,Morning,January,Central
@@ -8040,7 +8040,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.19314867,Secondary,55-60,M,White,Morning,July,Southwest
 0,0.09361159,Primary,35-40,M,Hispanic/Latin/Mexican,Morning,March,Hollenbeck
 0,0.4113181,Primary,25-30,M,Hispanic/Latin/Mexican,Afternoon,January,Hollywood
-1,0.9337982,Minor,5-10,F,Black,Afternoon,May,Southeast
+1,0.9337982,Minor,05-10,F,Black,Afternoon,May,Southeast
 1,0.82543397,Primary,30-35,M,Hispanic/Latin/Mexican,Afternoon,February,Foothill
 0,0.6864667,Minor,70-75,M,White,Afternoon,February,Pacific
 0,0.011455846,Minor,0-5,X,Unknown,Morning,May,Mission
@@ -8291,7 +8291,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.98234427,Minor,70-75,M,White,Evening,January,Topanga
 1,0.9014939,Minor,40-45,M,Hispanic/Latin/Mexican,Evening,March,Southeast
 0,0.40534604,Minor,45-50,F,Black,Evening,January,Southwest
-0,0.006597508,Minor,5-10,F,Hispanic/Latin/Mexican,Afternoon,May,Foothill
+0,0.006597508,Minor,05-10,F,Hispanic/Latin/Mexican,Afternoon,May,Foothill
 1,0.90756255,Primary,60-65,M,Black,Afternoon,July,Southeast
 1,0.7518059,Minor,20-25,F,Other,Evening,January,Northeast
 0,0.63128144,Primary,40-45,M,Hispanic/Latin/Mexican,Morning,February,Hollywood
@@ -8437,7 +8437,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.97562236,Primary,15-20,M,Other,Morning,May,Wilshire
 1,0.9783116,Primary,75-80,F,Black,Afternoon,February,77th_Street
 0,0.013696129,Minor,20-25,F,Hispanic/Latin/Mexican,Morning,April,Devonshire
-1,0.9774868,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,April,Southeast
+1,0.9774868,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,April,Southeast
 1,0.7678628,Minor,15-20,F,Hispanic/Latin/Mexican,Morning,July,Southeast
 1,0.87612045,Primary,80-85,F,Black,Morning,June,77th_Street
 0,0.12983575,Primary,0-5,X,Unknown,Evening,April,Rampart
@@ -8550,7 +8550,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.24780683,Minor,40-45,M,White,Evening,March,Northeast
 0,0.047146913,Minor,55-60,F,Hispanic/Latin/Mexican,Night,June,N_Hollywood
 0,0.31031486,Primary,40-45,M,Black,Afternoon,June,Central
-0,0.102183774,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,April,77th_Street
+0,0.102183774,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,April,77th_Street
 0,0.014395055,Minor,50-55,F,White,Afternoon,March,Rampart
 0,0.025058623,Primary,20-25,F,Other,Morning,April,Wilshire
 0,0.09328402,Primary,25-30,F,Hispanic/Latin/Mexican,Evening,June,Van_Nuys
@@ -8740,7 +8740,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.8420632,Secondary,25-30,F,Hispanic/Latin/Mexican,Night,March,Mission
 0,0.063917756,Minor,45-50,M,Hispanic/Latin/Mexican,Afternoon,April,Mission
 0,0.22576754,Minor,65-70,M,Hispanic/Latin/Mexican,Afternoon,March,Mission
-1,0.96134984,Minor,5-10,X,Unknown,Morning,June,Wilshire
+1,0.96134984,Minor,05-10,X,Unknown,Morning,June,Wilshire
 0,0.35890114,Minor,0-5,X,Unknown,Evening,April,Southeast
 0,0.017503947,Secondary,30-35,F,Black,Afternoon,July,Southeast
 0,0.12293531,Minor,25-30,F,Hispanic/Latin/Mexican,Afternoon,February,Southwest
@@ -9247,7 +9247,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.08169128,Minor,10-15,F,Hispanic/Latin/Mexican,Afternoon,February,Rampart
 0,0.7381117,Minor,15-20,M,Other,Evening,May,Olympic
 1,0.8042512,Minor,30-35,M,Black,Afternoon,March,77th_Street
-1,0.996725,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,February,Southeast
+1,0.996725,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,February,Southeast
 1,0.8255077,Secondary,20-25,M,Hispanic/Latin/Mexican,Evening,June,N_Hollywood
 0,0.06674114,Minor,35-40,M,White,Afternoon,March,Hollywood
 0,0.12874301,Minor,20-25,F,White,Morning,March,West_LA
@@ -9369,7 +9369,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.04857318,Minor,20-25,F,Hispanic/Latin/Mexican,Evening,April,Rampart
 1,0.9511574,Minor,30-35,M,Other,Morning,March,Van_Nuys
 1,0.8718569,Minor,50-55,F,Hispanic/Latin/Mexican,Morning,March,77th_Street
-1,0.96707773,Secondary,5-10,M,Black,Evening,March,77th_Street
+1,0.96707773,Secondary,05-10,M,Black,Evening,March,77th_Street
 0,0.06547863,Primary,30-35,F,Hispanic/Latin/Mexican,Morning,April,Rampart
 0,0.029250102,Minor,35-40,F,Black,Morning,February,77th_Street
 1,0.9428894,Minor,45-50,M,Black,Afternoon,June,77th_Street
@@ -9648,7 +9648,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.9878457,Minor,20-25,M,Hispanic/Latin/Mexican,Morning,May,Newton
 1,0.8995525,Primary,30-35,M,Hispanic/Latin/Mexican,Morning,June,Southwest
 0,0.16815531,Minor,30-35,F,Black,Morning,May,Harbor
-1,0.9947172,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,January,Southeast
+1,0.9947172,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,January,Southeast
 0,0.0784582,Minor,25-30,F,Hispanic/Latin/Mexican,Evening,March,Olympic
 1,0.5618919,Secondary,30-35,M,White,Afternoon,June,Devonshire
 0,0.5979046,Minor,45-50,M,Hispanic/Latin/Mexican,Afternoon,March,Southeast
@@ -9732,7 +9732,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.95236814,Secondary,0-5,X,Unknown,Evening,June,Central
 0,0.023513509,Primary,75-80,M,White,Evening,June,Mission
 0,0.305576,Primary,40-45,F,Other,Evening,January,West_Valley
-1,0.996725,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,February,Southeast
+1,0.996725,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,February,Southeast
 1,0.92665786,Primary,35-40,M,Hispanic/Latin/Mexican,Morning,April,West_Valley
 1,0.814267,Secondary,25-30,F,White,Afternoon,June,Central
 1,0.26045907,Primary,20-25,M,White,Morning,June,Hollywood
@@ -9867,7 +9867,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.099694766,Minor,0-5,X,Unknown,Evening,March,Southeast
 1,0.9556595,Minor,45-50,M,Black,Evening,January,Central
 1,0.9311339,Minor,10-15,M,Black,Afternoon,June,Southeast
-0,0.027709518,Minor,5-10,F,Hispanic/Latin/Mexican,Morning,January,Southwest
+0,0.027709518,Minor,05-10,F,Hispanic/Latin/Mexican,Morning,January,Southwest
 0,0.8055766,Primary,45-50,M,Other,Evening,June,Topanga
 1,0.057560124,Minor,60-65,M,Black,Evening,April,Newton
 0,0.08623923,Primary,70-75,F,Black,Afternoon,March,West_Valley
@@ -10163,7 +10163,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 1,0.93565696,Minor,40-45,M,Hispanic/Latin/Mexican,Afternoon,June,Devonshire
 1,0.9094324,Minor,55-60,M,White,Morning,February,Topanga
 1,0.94838226,Minor,35-40,M,Black,Night,June,Southwest
-1,0.9947172,Minor,5-10,M,Hispanic/Latin/Mexican,Afternoon,January,Southeast
+1,0.9947172,Minor,05-10,M,Hispanic/Latin/Mexican,Afternoon,January,Southeast
 1,0.7132693,Minor,0-5,M,Hispanic/Latin/Mexican,Afternoon,April,Harbor
 0,0.117467985,Primary,0-5,M,White,Afternoon,January,N_Hollywood
 1,0.69385177,Primary,45-50,M,Black,Afternoon,February,Newton
@@ -10410,7 +10410,7 @@ Crime_Code,Predictions,Type,Age Bin,Victim Sex,Victim Descent,Time of Day,Month,
 0,0.066179395,Minor,15-20,F,Black,Morning,June,77th_Street
 1,0.19670849,Primary,30-35,M,White,Afternoon,February,N_Hollywood
 0,0.507905,Primary,0-5,M,Other,Morning,May,N_Hollywood
-1,0.93382895,Minor,5-10,F,Hispanic/Latin/Mexican,Evening,June,Southeast
+1,0.93382895,Minor,05-10,F,Hispanic/Latin/Mexican,Evening,June,Southeast
 1,0.96564853,Minor,55-60,F,Black,Evening,January,Hollywood
 0,0.0747838,Minor,55-60,M,Hispanic/Latin/Mexican,Evening,March,Northeast
 0,0.29633808,Minor,0-5,M,Other,Evening,March,West_LA
