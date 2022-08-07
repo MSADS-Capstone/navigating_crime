@@ -41,8 +41,55 @@ def data_types(df):
 
     return dat_type
 
+###################################
+#####  Boxplot Distributions ######
+###################################
+import seaborn as sns
+def sns_boxplot(df, title, xlabel, ylabel, column):
+    '''
+    This function plots boxplots of any column of interest
+    Inputs: 
+        df: dataframe to pass into the function
+        title: title of the boxplot
+        ylabel: y-axis label of the boxplot
+        column: column of interest to run the function on
+    '''
+    fig = plt.figure(figsize = (15,1.5)) # set figure size
+    plt.title(title, fontsize=12) # set plot title
+    plt.xlabel(xlabel, fontsize=12) # set plot x-axis label
+    plt.ylabel(ylabel, fontsize=12) # set plot y-axis label
+    # seaborn boxplot function w/ horizontal orientation
+    boxplot = sns.boxplot(df[column], palette="coolwarm", 
+                          orient='h', linewidth=2.5)
+    print()
+    print('Summarizing', column)
+    # Computing IQR
+    Q1 = df[column].quantile(0.25) # first quartile
+    Q3 = df[column].quantile(0.75) # third quartile
+    IQR = Q3-Q1 # interquartile range
+
+    # Computing Summary Stats of average_monthly_hours
+    mean = round(df[column].mean(),2) # calculate mean
+    std = round(df[column].std(),2) # calculate standard dev.
+    median = round(df[column].median(),2) # calculate median
+
+    # print statements for summary statistics
+    Q1_print = print('The first quartile is %s. '%Q1)
+    Q3_print = print('The third quartile is %s. '%Q3)
+    IQR_print = print('The IQR is %s.'%round(IQR,2))
+    mean_print = print('The mean is %s.'%mean)
+    std_print = print('The standard deviation is %s.'%std)
+    median_print = print('The median is %s.'%median)
+    # if mean is greater than median, (+) skewed; 
+    # otherwise (-) skewed.
+    if mean > median:
+        print('The distribution is positively skewed.')
+    else:
+        print('The distribution is negatively skewed.')
+    print()  
+
 ####################################
-##   Bar Graph Plotting Function  ##
+### Bar Graph Plotting Function  ###
 ####################################
 
 # import the requisite libraries
@@ -115,7 +162,10 @@ def cont_table(df, col1, lev1, col2, lev2):
 
     return crime_res_comb.style.format("{:,.0f}")
 
-# Summary Statistics For Any Column in the Dataframe
+##########################
+### Summary Statistics ###
+##########################
+
 def summ_stats(df, var1, var2):
     '''
     A function to provide 5 number summary for any column of interest
@@ -135,7 +185,10 @@ def summ_stats(df, var1, var2):
     dfsummary = summ_stats.rename(columns = column_rename)
     return dfsummary
 
-# Stacked Bar Graphs
+##########################
+### Stacked Bar Graphs ###
+##########################
+
 def stacked_plot (x, y, p, df, col, truth, condition, kind, title1, xlabel1, 
                   ylabel1, width, rot, title2, xlabel2, ylabel2):
     '''
