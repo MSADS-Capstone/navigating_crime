@@ -1,10 +1,10 @@
-# Navigating Crime Data with Data Science - MSADS599: Capstone
+# MSADS599: Capstone - Identifying Safer Pedestrian Routes in Los Angeles
 
 <p align = "center">
   <img src="https://c.tenor.com/9yaCKAT8LKYAAAAC/crime-scene.gif">
 </p>
 
-This project is a part of the ADS-599 Capstone at the University of San Diego. 
+This is a Capstone project for the University of San Diego's M.S. in Applied Data Science program. 
 
 ### Project Status: Complete
 
@@ -21,6 +21,11 @@ To use this project, first clone the repo on your device using the commands belo
 * [Leonid Shpaner](https://github.com/lshpaner)  
 * [Christopher Robinson](https://github.com/ChrisRobinsonUSD)  
 * [Jose Luis Estrada](https://github.com/jose-luis-estrada)  
+
+# Table of Contents
+1. [Methods](### Methods)
+2. [Technologies](### Technologies)
+
 
 ### Methods  
 * Data Exploration  
@@ -40,7 +45,7 @@ This project examines pedestrian safety using machine learning and recent crime 
 
 ### Data Acquisition and Aggregation
 
-The data was downloaded from the Los Angeles Police Department and preprocessed initially using the ArcGIS ArcPy library. Each crime data point was spatially joined to street segments within 50 feet, producing a one-to-many relationship between streets and crimes. The resulting dataset contained merged street and crime data. The merged dataset was then joined to Los Angeles police districts to extract the district description to validate the LAPD crime data and add the district description to streets which did not have crimes associated with them. Once all three datasets were joined, all records with null street ID values were dropped and the dataset was exported to .csv for exploratory data analysis and further preprocessing.
+The data was downloaded from the Los Angeles Police Department and preprocessed initially using the ArcGIS ArcPy library. Each crime data point was spatially joined to street segments within fifty feet, producing a one-to-many relationship between streets and crimes. The resulting dataset contained merged street and crime data. The merged dataset was then joined to Los Angeles police districts to extract the district description to validate the LAPD crime data and add the district description to streets which did not have crimes associated with them. Once all three datasets were joined, all records with null street ID values were dropped and the dataset was exported to .csv for exploratory data analysis and further preprocessing.
 
 <p align = "center">
   <img src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/EDA%20Images/Project_Workflow.jpeg">
