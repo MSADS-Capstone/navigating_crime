@@ -25,6 +25,7 @@ To use this project, first clone the repo on your device using the commands belo
 # Table of Contents
 1. [Methods](#Methods)
 2. [Technologies](#Technologies)
+3. [Project Objective](#Project_Objective)
 
 
 ### Methods  
@@ -39,7 +40,7 @@ To use this project, first clone the repo on your device using the commands belo
 * ArcGIS
 * Dash Plotly
 
-### Project Intro/Objective
+## Project Objective
 
 This project examines pedestrian safety using machine learning and recent crime data. The goal is to automate a process to identify the safest route between locations, as well as provide additional up to date crime information. This project is looking for the “safest” route, which does not guarantee the route is safe. In some instances, there is no “safe” route. Additionally, where crime is concerned, often factors such as time of day and traits relating to the victim such as age, sex, race, are elements of safety. The solution discussed here not only identifies the safest route but includes elements of situational awareness to assist in making the best decision possible regarding personal safety. When it comes to navigating an area safely, recommendations can be made, but ultimately it is up to the navigator to determine what level of risk is acceptable.
 
