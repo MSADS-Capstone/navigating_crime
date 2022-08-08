@@ -26,6 +26,8 @@ To use this project, first clone the repo on your device using the commands belo
 1. [Methods](#Methods)
 2. [Technologies](#Technologies)
 3. [Project Objective](#Project_Objective)
+4. [Project Overview](#Project_Overview)
+5. [Code Library](#Code-Library)
 
 
 ### Methods  
