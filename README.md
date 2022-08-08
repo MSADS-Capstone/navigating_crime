@@ -29,7 +29,7 @@ To use this project, first clone the repo on your device using the commands belo
 4. [Project Overview](#project_overview)
 5. [Web Applications](#web-applications)
 6. [Code Library](#code-library)
-7. [Project Workflow Diagram](#Project_Workflow_Diagram)
+7. [Project Workflow Diagram](#project-workflow-diagram)
 8. [Visualizations](#visualizations)
 
 
