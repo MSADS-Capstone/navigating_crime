@@ -46,16 +46,16 @@ This project examines pedestrian safety using machine learning and recent crime 
 
 ### Project Overview
 
-[Main Notebook](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Main_Notebook.ipynb)
+[Main Notebook](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Main_Notebook.ipynb)  
 
-[ArcGUS Data Processing](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/ArcGIS_Data_Processing.py)
-[Python Crime Data Downloader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Downloader.py)
-[Pythin Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Uploader.py)
+[ArcGUS Data Processing](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/ArcGIS_Data_Processing.py)  
+[Python Crime Data Downloader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Downloader.py)  
+[Pythin Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Uploader.py)  
 
-[Data Exploration Phase I](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase1.ipynb)
-[Data Exploration Phase II](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase2.ipynb)
-[Data Preparation](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_preparation.ipynb)
-[Functions](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/functions.py)
+[Data Exploration Phase I](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase1.ipynb)  
+[Data Exploration Phase II](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase2.ipynb)  
+[Data Preparation](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_preparation.ipynb)  
+[Functions](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/functions.py)  
 [Modeling](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/modeling.ipynb)
 
 
