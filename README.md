@@ -43,7 +43,7 @@ This project examines pedestrian safety using machine learning and recent crime 
 The data was downloaded from the Los Angeles Police Department and preprocessed initially using the ArcGIS ArcPy library. Each crime data point was spatially joined to street segments within 50 feet, producing a one-to-many relationship between streets and crimes. The resulting dataset contained merged street and crime data. The merged dataset was then joined to Los Angeles police districts to extract the district description to validate the LAPD crime data and add the district description to streets which did not have crimes associated with them. Once all three datasets were joined, all records with null street ID values were dropped and the dataset was exported to .csv for exploratory data analysis and further preprocessing.
 
 <p align = "center">
-  <img src="G:/Shared drives/Capstone - Best Group/navigating_crime/Image Folder/EDA Images/Project_Workflow.jpeg">
+  <img src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/EDA%20Images/Project_Workflow.jpeg">
 </p>
 
 ### Visualization
