@@ -28,6 +28,7 @@ To use this project, first clone the repo on your device using the commands belo
 3. [Project Objective](#Project_Objective)
 4. [Project Overview](#Project_Overview)
 5. [Code Library](#Code-Library)
+6. [Project Workflow Diagram](#Project_Workflow_Diagram)
 
 
 ### Methods  
@@ -77,6 +78,9 @@ VIII. [Modeling](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Co
 
 IX. [Python Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Uploader.py)  
 -  This file processes the final model output.  Creates the final street predictions, dangerous street points, and filtered crime locations datasets.
+
+
+## Project Workflow Diagram  
 
 <p align = "center">
   <img src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/EDA%20Images/Project_Workflow.jpeg">
