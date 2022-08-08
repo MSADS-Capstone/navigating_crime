@@ -23,8 +23,8 @@ To use this project, first clone the repo on your device using the commands belo
 * [Jose Luis Estrada](https://github.com/jose-luis-estrada)  
 
 # Table of Contents
-1. [Methods](###Methods)
-2. [Technologies](###Technologies)
+1. [Methods](#Methods)
+2. [Technologies](#Technologies)
 
 
 ### Methods  
