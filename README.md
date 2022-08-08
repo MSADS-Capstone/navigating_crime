@@ -91,17 +91,23 @@ IX. [Python Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_cr
 * Random Forest
 * XGBoost
 
-### References
-Bura, D., Singh, M., \& Nandal, P. (2019). Predicting Secure and Safe Route for Women using Google Maps. 2019 International Conference on Machine Learning, Big Data, Cloud and Parallel Computing (COMITCon). https://doi.org/10.1109/comitcon.2019
+## References
 
-Levy, S., Xiong, W., Belding, E., \& Wang, W. Y. (2020). SafeRoute: Learning to Navigate Streets Safely in an Urban Environment. ACM Transactions on Intelligent Systems and Technology, 11(6), 1-17. https://doi.org/10.1145/3402818
+Bura, D., Singh, M., & Nandal, P. (2019). Predicting Secure and Safe Route for Women using Google Maps. *2019 International Conference on Machine Learning, Big Data, Cloud and Parallel Computing (COMITCon).* https://doi.org/10.1109/comitcon.2019  
 
-Lopez, G., 2022, April 17. A Violent Crisis. The New York Times. https://www.nytimes.com/2022/04/17/briefing /violent-crime-ukraine-war-week-ahead.html
+Chen T. & Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. *Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining.* 785-794. https://doi.org/10.1145/2939672.2939785  
 
-Pavate, A., Chaudhari, A., \& Bansode, R. (2019). Envision of Route Safety Direction Using Machine Learning. Acta Scientific Medical Sciences, 3(11), 140–145. https://doi.org/10.31080/asms.2019.03.0452
+Kuhn, M., & Johnson, K. (2016). *Applied Predictive Modeling.* Springer. https://doi.org/10.1007/978-1-4614-6849-3  
 
-Tarkelar, S., Bhat, A., Pandhe, S., \& Halarnkar, T. (2016). Algorithm to Determine the Safest Route. (IJCSIT) International Journal of Computer Science and Information Technologies, 7(3), 2016, 1536-1540. http://ijcsit.com/docs/Volume\%207/vol7issue 3/ijcsit20160703106.pdf
+Levy, S., Xiong, W., Belding, E., & Wang, W. Y. (2020). *SafeRoute: Learning to Navigate Streets Safely in an Urban Environment. ACM Transactions on Intelligent Systems and Technology, 11*(6), 1-17. https://doi.org/10.1145/3402818  
 
-Vandeviver, C. (2014). Applying Google Maps and Google Street View in criminological research. Crime Science, 3(1). https://doi.org/10.1186/s40163-014-0013-2
+Lopez, G., 2022, April 17. A Violent Crisis. *The New York Times.* https://www.nytimes.com/2022/04/17/briefing/violent-crime-ukraine-war-week-ahead.html.  
 
+Pavate, A., Chaudhari, A., & Bansode, R. (2019). Envision of Route Safety Direction Using Machine Learning. *Acta Scientific Medical Sciences, 3*(11), 140–145. https://doi.org/10.31080/asms.2019.03.0452  
+
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., and Duchesnay, E. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research*, 12(Oct), 2825–2830.  
+
+Tarkelar, S., Bhat, A., Pandhe, S., & Halarnkar, T. (2016). Algorithm to Determine the Safest Route. *(IJCSIT) International Journal of Computer Science and Information Technologies, 7*(3), 2016, 1536-1540. http://ijcsit.com/docs/Volume%207/vol7issue3/ijcsit20160703106.pdf  
+
+Vandeviver, C. (2014). Applying Google Maps and Google Street View in criminological research. *Crime Science, 3*(1). https://doi.org/10.1186/s40163-014-0013-2
 Wang, Y. Li, Y., Yong S., Rong, X., Zhang, S. (2017). Improvement of ID3 algorithm based on simplified information entropy and coordination degree. 2017 Chinese Automation Congress (CAC), 1526-1530. https://doi.org/10.1109/CAC.2017.8243009
