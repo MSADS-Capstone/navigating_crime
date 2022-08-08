@@ -26,9 +26,11 @@ To use this project, first clone the repo on your device using the commands belo
 1. [Methods](#Methods)
 2. [Technologies](#Technologies)
 3. [Project Objective](#Project_Objective)
-4. [Project Overview](#Project_Overview)
-5. [Code Library](#Code-Library)
-6. [Project Workflow Diagram](#Project_Workflow_Diagram)
+4. [Project Overview](#project_overview)
+5. [Web Applications](#web-applications)
+6. [Code Library](#code-library)
+7. [Project Workflow Diagram](#Project_Workflow_Diagram)
+8. [Visualizations](#visualizations)
 
 
 ### Methods  
@@ -47,9 +49,14 @@ To use this project, first clone the repo on your device using the commands belo
 
 This project examines pedestrian safety using machine learning and recent crime data. The goal is to automate a process to identify the safest route between locations, as well as provide additional up to date crime information. This project is looking for the “safest” route, which does not guarantee the route is safe. In some instances, there is no “safe” route. Additionally, where crime is concerned, often factors such as time of day and traits relating to the victim such as age, sex, race, are elements of safety. The solution discussed here not only identifies the safest route but includes elements of situational awareness to assist in making the best decision possible regarding personal safety. When it comes to navigating an area safely, recommendations can be made, but ultimately it is up to the navigator to determine what level of risk is acceptable.
 
-### Project Overview
+## Project Overview
+The project commences by downloading the data from LAPD and filtering out non-violent crime. The data is georeferenced and spatially joined to the Los Angeles street GIS dataset. It is then preprocessed and a flat .csv file is provided for further examination, preprocessing, and modeling. The final model output is then incorporated into a [web mapping application](https://chrisrobinson.maps.arcgis.com/apps/webappviewer/index.html?id=5b3684334cf14070b09650392eecd26b) which allows the end-user to create turn-by-turn directions avoiding dangerous streets. 
 
-## Code Library
+### Web Applications
+a. [Los Angeles Crime - Web Mapping Application](https://chrisrobinson.maps.arcgis.com/apps/webappviewer/index.html?id=5b3684334cf14070b09650392eecd26b)
+b. [Los Angeles Crime - Exploratory Overview and Modeling](https://crime-data-la.herokuapp.com/)
+
+### Code Library
 
 I. [Main Notebook](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Main_Notebook.ipynb)  
 - This notebook contains the primary code base for the data science portions of the project, consisting of Data Exploration Phase I, Data Preparation, Data Exploration Phase II, and Modeling.  
@@ -86,7 +93,11 @@ IX. [Python Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_cr
   <img src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/EDA%20Images/Project_Workflow.jpeg">
 </p>
 
-### Visualization
+### Visualizations
+* Boxplots
+* Histograms
+* Bar Graphs
+* Correlation Matrix
 
 ### Modeling  
 * Quadratic Discriminant Analysis (QDA)
