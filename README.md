@@ -60,15 +60,20 @@ III. [ArcGIS Data Processing](https://github.com/MSADS-Capstone/navigating_crime
 
 IV. [Data Exploration Phase I](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase1.ipynb)  
 - This notebook provides a data report mapping to unique ID fields, column names, data types, null counts, and percentages in the dataframe. It also shows some basic bar graphs for an initial cursory overview of data exploration.  
+
 V. [Data Preparation](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_preparation.ipynb)  
 - This notebook preprocesses the dataframe, allowing for further exploration to take place and sets the stage for modeling.  
+
 VI. [Data Exploration Phase II](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase2.ipynb)  
 - This notebook takes a more granular look into the columns of interest using boxplots, stacked bar graphs, histograms, and culimates with a correlation matrix.  
+
 VII. [Functions](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/functions.py)  
 - This file creates functions for data types and various plots that are used throughout the project pipeline.  
+
 VIII. [Modeling](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/modeling.ipynb)
 - This notebook contains all of the machine learning algorithms carried out in this project.  
-[Python Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Uploader.py)  
+
+IX. [Python Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Uploader.py)  
 -  This file processes the final model output.  Creates the final street predictions, dangerous street points, and filtered crime locations datasets.
 
 <p align = "center">
