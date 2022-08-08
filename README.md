@@ -88,7 +88,7 @@ IX. [Python Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_cr
 -  This file processes the final model output.  Creates the final street predictions, dangerous street points, and filtered crime locations datasets.
 
 ### Data 
-  a. [Data Dictionary](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_dictionary.md)
+  a. [Data Dictionary](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_dictionary.md)  
   b. [Data Report](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_report.txt)
 
 
