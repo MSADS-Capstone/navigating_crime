@@ -6,7 +6,7 @@
 
 This project is a part of the ADS-599 Capstone at the University of San Diego. 
 
-### Project Status: In Progress
+### Project Status: Complete
 
 ### Installation
 
@@ -31,17 +31,29 @@ To use this project, first clone the repo on your device using the commands belo
 
 ### Technologies  
 * Python
-* SQL Transformations  
-* Powerpoint  
+* ArcGIS
+* Dash Plotly
 
 ### Project Intro/Objective
 
-This project aims to create an application for predicting pedestrian safety using machine learning and crime data. Murders have spiked nearly 40 percent since 2019, and violent crimes, including shootings and other assaults, have increased overall (Lopez, 2022). Every 26.3 seconds, someone suffers a violent attack in the United States (Protection1, n.d.). Violent crimes comprise four offenses, including murder and nonnegligent manslaughter, rape, robbery, and aggravated assault.
+This project examines pedestrian safety using machine learning and recent crime data. The goal is to automate a process to identify the safest route between locations, as well as provide additional up to date crime information. This project is looking for the “safest” route, which does not guarantee the route is safe. In some instances, there is no “safe” route. Additionally, where crime is concerned, often factors such as time of day and traits relating to the victim such as age, sex, race, are elements of safety. The solution discussed here not only identifies the safest route but includes elements of situational awareness to assist in making the best decision possible regarding personal safety. When it comes to navigating an area safely, recommendations can be made, but ultimately it is up to the navigator to determine what level of risk is acceptable.
 
-**Data Analysis, Visualization, and Modeling**  
+### Data Acquisition and Aggregation
+
+The data was downloaded from the Los Angeles Police Department and preprocessed initially using the ArcGIS ArcPy library. Each crime data point was spatially joined to street segments within 50 feet, producing a one-to-many relationship between streets and crimes. The resulting dataset contained merged street and crime data. The merged dataset was then joined to Los Angeles police districts to extract the district description to validate the LAPD crime data and add the district description to streets which did not have crimes associated with them. Once all three datasets were joined, all records with null street ID values were dropped and the dataset was exported to .csv for exploratory data analysis and further preprocessing.
+
+<p align = "center">
+  <img src="Project_Workflow.jpeg">
+</p>
+
+### Visualization
+
+### Modeling  
+* Quadratic Discriminant Analysis (QDA)
 * Logistic Regression
 * Decision Tree
 * Random Forest
+* XGBoost
 
 ### References
 Bura, D., Singh, M., \& Nandal, P. (2019). Predicting Secure and Safe Route for Women using Google Maps. 2019 International Conference on Machine Learning, Big Data, Cloud and Parallel Computing (COMITCon). https://doi.org/10.1109/comitcon.2019
