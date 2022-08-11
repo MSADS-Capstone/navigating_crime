@@ -1,7 +1,7 @@
 # MSADS599: Capstone - Identifying Safer Pedestrian Routes in Los Angeles
 
 <p align = "center">
-  <img src="https://c.tenor.com/9yaCKAT8LKYAAAAC/crime-scene.gif">
+  <img src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/la_safe_street_routes.gif">
 </p>
 
 This is a Capstone project for the University of San Diego's M.S. in Applied Data Science program. 
