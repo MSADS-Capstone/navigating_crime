@@ -20,20 +20,20 @@ sheet = client.open_by_key('1lbh-GfM6o_X1oN6Xa8Rl2z_CZt828o-4AHXfXLWXQQQ')
 wks = sheet.worksheet_by_title('GIS Data Sources')
 DataSources_df = wks.get_as_df()
 
-#Create State_County string for folder creation
+# Create State_County string for folder creation
 DataSources_df['state_county'] = DataSources_df['State'] + '_' + DataSources_df['County']
 
-#Get date
+# Get date
 now = datetime.now()
 dt_string = now.strftime("%Y%m%d")
 
 # Parent Directory path
 parent_dir = 'D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader/Data'
 
-#Create list of state_county
+# Create list of state_county
 state_county_list = DataSources_df['state_county'].tolist()
 
-#Download and extract crimes
+# Download and extract crimes
 def downloadCrimes():
 
     #Replace "" with NaN for next step
