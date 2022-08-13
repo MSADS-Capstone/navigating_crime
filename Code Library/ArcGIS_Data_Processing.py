@@ -55,11 +55,14 @@ LAPD_Divisions = 'LAPD_Divisions'
 LA_Streets_with_Crimes = 'LA_Streets_with_Crimes'
 LA_Streets_with_Crimes_by_Division = 'LA_Streets_with_Crimes_by_Division'
 
-arcpy.analysis.SpatialJoin(LACity_Walking_Streets, LA_Crimes, LA_Streets_with_Crimes, join_operation='JOIN_ONE_TO_MANY', match_option='WITHIN_A_DISTANCE', search_radius='50 feet')
+arcpy.analysis.SpatialJoin(LACity_Walking_Streets, LA_Crimes, LA_Streets_with_Crimes, 
+                           join_operation='JOIN_ONE_TO_MANY', match_option='WITHIN_A_DISTANCE', search_radius='50 feet')
 
-arcpy.analysis.SpatialJoin(LA_Streets_with_Crimes, LAPD_Divisions, LA_Streets_with_Crimes_by_Division, join_operation='JOIN_ONE_TO_ONE', match_option='HAVE_THEIR_CENTER_IN')
+arcpy.analysis.SpatialJoin(LA_Streets_with_Crimes, LAPD_Divisions, LA_Streets_with_Crimes_by_Division, 
+                           join_operation='JOIN_ONE_TO_ONE', match_option='HAVE_THEIR_CENTER_IN')
 
 LA_Streets_with_Crimes_by_Division_df = arcgis_table_to_df(LA_Streets_with_Crimes_by_Division)
+
 LA_Streets_with_Crimes_by_Division_df = LA_Streets_with_Crimes_by_Division_df[LA_Streets_with_Crimes_by_Division_df['DR_NO'].notnull()]
 
 LA_Streets_with_Crimes_by_Division_df.to_csv(table_path + '/LA_Streets_with_Crimes_By_Division.csv')
