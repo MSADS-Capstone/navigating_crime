@@ -39,8 +39,8 @@ statsFields = [['StreetOID", "Count']]
 caseField = [['StreetOID']]
 summary_table = 'Predictions_Summary'
 
-#Summarize table on StreetOID taking Max Prediction
-#This will give us the count of crimes on the street segment as well as the Max Probability that a crime will occur
+# Summarize table on StreetOID taking Max Prediction
+# This will give us the count of crimes on the street segment as well as the Max Probability that a crime will occur
 arcpy.analysis.Statistics(summary_input, summary_table, statsFields, caseField)
 
 fc = 'Predictions_Summary'
@@ -60,7 +60,7 @@ joinTable2 = 'Predictions_Summary'
 joinField2 = 'StreetOID'
 joinField3 = 'LA_Streets_with_Crimes_StreetOID'
 
-#Join summary table back to the Streets dataset
+# Join summary table back to the Streets dataset
 predictions_joined_table = arcpy.AddJoin_management(inFeatures2, joinField2, joinTable2, joinField3)
 
 # Copy the layer to a new permanent feature class
@@ -75,7 +75,7 @@ arcpy.FeatureClassToFeatureClass_conversion(Final_out_feature_class, outWorkspac
 
 arcpy.FeatureToPoint_management(outFeatureClass2, outFeatureClass3, "CENTROID")
 
-#Upload the data to the ArcGIS Service used in the crime navigation app
+# Upload the data to the ArcGIS Service used in the crime navigation app
 
 aprxPath = 'D:/data/projects/00000-Misc/USD/Capstone_Project/MADS_Capstone_Project.aprx'
 
