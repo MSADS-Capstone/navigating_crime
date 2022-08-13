@@ -28,7 +28,7 @@ now = datetime.now()
 dt_string = now.strftime("%Y%m%d")
 
 # Parent Directory path
-parent_dir = "D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader/Data"
+parent_dir = 'D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader/Data'
 
 #Create list of state_county
 state_county_list = DataSources_df['state_county'].tolist()
@@ -68,11 +68,11 @@ def downloadCrimes():
         crimesdf = pd.read_csv(parent_dir + f'/{st_cnty}/Crimes/incoming_{dt_string}.csv')
 
         # Filter out non-violent crime
-        crimesdf = crimesdf[crimesdf["Crm Cd"].isin([110,113,121,122,210,220,230,231,235,236,237,251,434,435,436,451,452,622,622,
+        crimesdf = crimesdf[crimesdf['Crm Cd'].isin([110,113,121,122,210,220,230,231,235,236,237,251,434,435,436,451,452,622,622,
         623,624,625,626,627,753,761,762,763,805,806,810,812,813,814,815,820,821,822,830,840,850,860,910,920,921])]
 
         # Filter only crimes occuring on the street, sidewalk, alley, driveway, crosswalk, tunnel, parking lot, Park or vacant lot
-        crimesdf = crimesdf[crimesdf["Premis Cd"].isin([100,101,102,103,104,105,106,107,108,109])]
+        crimesdf = crimesdf[crimesdf['Premis Cd'].isin([100,101,102,103,104,105,106,107,108,109])]
 
         #Export filtered dataset
         crimesdf.to_csv(parent_dir + f'/{st_cnty}/Crimes/Filtered_{dt_string}.csv')
