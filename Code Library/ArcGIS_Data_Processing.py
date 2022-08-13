@@ -1,15 +1,19 @@
+##########################################
+##   ArcGIS Post Modelling Processing   ##
+##########################################
+
 import arcpy
 import pandas as pd
 from datetime import datetime
 
 def arcgis_table_to_df(in_fc, input_fields=None, query=""):
     
-    """Function will convert an arcgis table into a pandas dataframe with an object ID index, and the selected
+    """Function converts an arcgis table into a pandas dataframe with index (object ID), and the selected
     input fields using an arcpy.da.SearchCursor.
-    :param - in_fc - input feature class or table to convert
-    :param - input_fields - fields to input to a da search cursor for retrieval
-    :param - query - sql query to grab appropriate values
-    :returns - pandas.DataFrame"""
+    :param - in_fc - input feature class or table
+    :param - input_fields - fields to input to a da search cursor
+    :param - query - sql query to select appropriate values
+    :returns - pd.DataFrame"""
     
     OIDFieldName = arcpy.Describe(in_fc).OIDFieldName
     if input_fields:
