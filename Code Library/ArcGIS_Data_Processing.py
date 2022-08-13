@@ -1,6 +1,7 @@
-##########################################
-##   ArcGIS Post Modelling Processing   ##
-##########################################
+######################################################################################
+##   This file georeferences the downloaded crime data and joins it to LA streets,  ##
+##   creating the raw dataset for use in modeling.                                  ##
+######################################################################################
 
 import arcpy
 import pandas as pd
