@@ -23,7 +23,6 @@ arcpy.TableToTable_conversion(in_predictions, outWorkspace, df_preds_xgb_final)
 
 # Join the predictions back to the original street data by OBJECTID
 # Join the feature layer to a table
-
 inFeatures = 'LA_Streets_with_Crimes'
 joinTable = 'df_preds_xgb_final'
 joinField = 'OBJECTID'
@@ -76,7 +75,6 @@ arcpy.FeatureClassToFeatureClass_conversion(Final_out_feature_class, outWorkspac
 arcpy.FeatureToPoint_management(outFeatureClass2, outFeatureClass3, "CENTROID")
 
 # Upload the data to the ArcGIS Service used in the crime navigation app
-
 aprxPath = 'D:/data/projects/00000-Misc/USD/Capstone_Project/MADS_Capstone_Project.aprx'
 
 sd_fs_name = 'Los Angeles Crimes'
@@ -92,7 +90,7 @@ relPath = 'D:/data/projects/00000-Misc/USD/Capstone_Project'
 sddraft = os.path.join(relPath, 'Los_Angeles_Crimes.sddraft')
 sd = os.path.join(relPath, 'Los_Angeles_Crimes.sd')
 
-# Creating SD file
+# Creating service definition file
 arcpy.env.overwriteOutput = True
 prj = arcpy.mp.ArcGISProject(aprxPath)
 mp = prj.listMaps()[0]
