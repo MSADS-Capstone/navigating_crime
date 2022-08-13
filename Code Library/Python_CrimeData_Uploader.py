@@ -1,3 +1,8 @@
+#########################################################################################
+##  This file processes the final model output. Creates the final street predictions,  ## 
+##  dangerous street points, and filtered crime locations datasets.                    ##
+#########################################################################################
+
 import arcpy
 import os, sys
 from arcgis.gis import GIS
@@ -7,7 +12,9 @@ workspace = arcpy.env.workspace = "D:/data/projects/00000-Misc/USD/Capstone_Proj
 outWorkspace = "D:/data/projects/00000-Misc/USD/Capstone_Project/Data/MADS_CapstoneProject_Data.gdb"
 
 # Set the local variables
-in_predictions = "D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader/df_preds_xgb_final.csv"
+table_path = "D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader"
+
+in_predictions = table_path + "/df_preds_xgb_final.csv"
 Final_out_feature_class = "LACity_Walking_Streets_with_Predictions"
 df_preds_xgb_final = "df_preds_xgb_final"
 
@@ -81,7 +88,7 @@ shareOrg = True
 shareEveryone = False
 shareGroups = ""
 
-relPath = 'D:/data/projects/00000-Misc/USD/Capstone_Project'
+relPath = "D:/data/projects/00000-Misc/USD/Capstone_Project"
 sddraft = os.path.join(relPath, "Los_Angeles_Crimes.sddraft")
 sd = os.path.join(relPath, "Los_Angeles_Crimes.sd")
 
