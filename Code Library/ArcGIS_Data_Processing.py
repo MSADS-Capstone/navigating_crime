@@ -50,20 +50,26 @@ arcpy.management.XYTableToPoint(in_table, out_feature_class,
                                 arcpy.SpatialReference(4326, 115700))
 
 
+# Define feature class variables
 LACity_Walking_Streets = 'LACity_Walking_Streets'
 LA_Crimes = 'LA_Crimes'
 LAPD_Divisions = 'LAPD_Divisions'
 LA_Streets_with_Crimes = 'LA_Streets_with_Crimes'
 LA_Streets_with_Crimes_by_Division = 'LA_Streets_with_Crimes_by_Division'
 
+# Spatial join streets to crimes within 50ft
 arcpy.analysis.SpatialJoin(LACity_Walking_Streets, LA_Crimes, LA_Streets_with_Crimes, 
                            join_operation='JOIN_ONE_TO_MANY', match_option='WITHIN_A_DISTANCE', search_radius='50 feet')
 
+# Spatial join streets with crimes to LAPD divisions
 arcpy.analysis.SpatialJoin(LA_Streets_with_Crimes, LAPD_Divisions, LA_Streets_with_Crimes_by_Division, 
                            join_operation='JOIN_ONE_TO_ONE', match_option='HAVE_THEIR_CENTER_IN')
 
+# Converts ArcGIS table to dataframe
 LA_Streets_with_Crimes_by_Division_df = arcgis_table_to_df(LA_Streets_with_Crimes_by_Division)
 
+# Remove records with null 'DR_NO'
 LA_Streets_with_Crimes_by_Division_df = LA_Streets_with_Crimes_by_Division_df[LA_Streets_with_Crimes_by_Division_df['DR_NO'].notnull()]
 
+# Export df to csv
 LA_Streets_with_Crimes_by_Division_df.to_csv(table_path + '/LA_Streets_with_Crimes_By_Division.csv')
