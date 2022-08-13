@@ -1,3 +1,7 @@
+##############################################################################################
+##   This file downloads the data from the LAPD website and filters out non-violent crime.  ##
+##############################################################################################
+
 import pandas as pd
 import numpy as np
 import json
@@ -8,6 +12,7 @@ import requests
 import os
 from datetime import datetime
 import zipfile
+
 
 
 client = pygsheets.authorize(service_account_file = 'D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader/service_account.json')
@@ -50,17 +55,17 @@ def downloadCrimes():
         os.makedirs(path, exist_ok=True)
 
         downloaded_obj = requests.get(crimes_url, allow_redirects=True)
-        open(f'D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader/Data/{st_cnty}/Crimes/incoming_{dt_string}.csv', 'wb').write(downloaded_obj.content)
+        open(parent_dir + f'/{st_cnty}/Crimes/incoming_{dt_string}.csv', 'wb').write(downloaded_obj.content)
 
         '''
         # If the data is zipped
-        with zipfile.ZipFile(f'D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader/Data/{st_cnty}/Parcels/incoming_{dt_string}.zip', 'r') as zip_ref:
-            zip_ref.extractall(f'D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader/Data/{st_cnty}/Parcels/incoming_{dt_string}')
+        with zipfile.ZipFile(parent_dir + f'/{st_cnty}/Parcels/incoming_{dt_string}.zip', 'r') as zip_ref:
+            zip_ref.extractall(parent_dir + f'/{st_cnty}/Parcels/incoming_{dt_string}')
     
-        os.remove(f'D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader/Data/{st_cnty}/Parcels/incoming_{dt_string}.zip')
+        os.remove(parent_dir + f'/{st_cnty}/Parcels/incoming_{dt_string}.zip')
         '''
         # Read in dowloaded crime data
-        crimesdf = pd.read_csv(f'D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader/Data/{st_cnty}/Crimes/incoming_{dt_string}.csv')
+        crimesdf = pd.read_csv(parent_dir + f'/{st_cnty}/Crimes/incoming_{dt_string}.csv')
 
         # Filter out non-violent crime
         crimesdf = crimesdf[crimesdf["Crm Cd"].isin([110,113,121,122,210,220,230,231,235,236,237,251,434,435,436,451,452,622,622,
@@ -70,7 +75,7 @@ def downloadCrimes():
         crimesdf = crimesdf[crimesdf["Premis Cd"].isin([100,101,102,103,104,105,106,107,108,109])]
 
         #Export filtered dataset
-        crimesdf.to_csv(f'D:/data/projects/00000-Misc/USD/Capstone_Project/Python_CrimeData_Downloader/Data/{st_cnty}/Crimes/Filtered_{dt_string}.csv')
+        crimesdf.to_csv(parent_dir + f'/{st_cnty}/Crimes/Filtered_{dt_string}.csv')
         
 
 downloadCrimes()
