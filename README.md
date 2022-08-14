@@ -101,9 +101,9 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 </table></div>
 
 ### Data 
-- [DataFolder](https://github.com/MSADS-Capstone/navigating_crime/tree/main/Data%20Folder)  
-    - a. [Data Dictionary](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_dictionary.md)  
-    - b. [Data Report](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_report.txt)
+[DataFolder](https://github.com/MSADS-Capstone/navigating_crime/tree/main/Data%20Folder)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. [Data Dictionary](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_dictionary.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. [Data Report](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_report.txt)
 
 
 
