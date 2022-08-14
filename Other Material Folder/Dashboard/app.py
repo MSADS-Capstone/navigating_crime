@@ -45,13 +45,13 @@ app.layout = html.Div(children=[
         dcc.Graph(id='roc-graph' )
         ], style={'width': '50%', 'display': 'inline-block'}),
     html.Div([    
-        html.Div([html.H2(children="Confusion Matrices")], style={'text-align': 
+        html.Div([html.H2(children="Model Confusion Matrices")], style={'text-align': 
                                                                   'center'}),        
         dcc.Dropdown(id='model-conf', options=models, value=models[0]),    
         dcc.Graph(id='conf-graph' )
         ], style={'width': '50%', 'display': 'inline-block'}),
     html.Div([            
-        html.Div([html.H2(children="ROC Curves by Category-Based Column")], 
+        html.Div([html.H2(children="ROC Curves by Categorical Feature")], 
         style={'text-align': 'center'}),
         dcc.Dropdown(id='roc-col', options=options_preds, value=options_preds[4]),    
         dcc.Graph(id='roc-col-graph' )
@@ -85,19 +85,19 @@ def update_roc(models):
     Input('col', 'value')
 )
 def update_figure(col):
-    color_map = { 'Less Serious': '#00BFC4','More Serious': '#F8766D' }
+    color_map = {'Less Serious': '#00BFC4','More Serious': '#F8766D'}
     df_stack = freq_cols[col]
 
     fig = make_subplots(rows=2, cols=1, vertical_spacing=0.2)
 
     for name, rows in df_stack.groupby('crime_severity'):
         fig.add_trace(go.Bar(x = rows[col], y = rows['Counts'], name=name, 
-        marker_color = color_map[name], legendgroup=name), row=1,col=1)
+        marker_color = color_map[name], legendgroup=name), row=1, col=1)
 
     for name, rows in df_stack.groupby('crime_severity'):
-        fig.add_trace(go.Bar(x = rows[col], y = rows['Percentage'],
+        fig.add_trace(go.Bar(x = rows[col], y=rows['Percentage'],
         marker_color = color_map[name], showlegend=False, legendgroup=name), 
-        row=2,col=1)
+        row=2, col=1)
 
     fig.update_layout(barmode='stack')
     fig.update_layout(title = f'<b>Crime Severity by {col}</b>', height = 800)
@@ -122,12 +122,15 @@ def update_roc_col(column):
         count = len(y_true)
         len_h0 = len(y_true[y_true == 0])
         len_h1 = len(y_true[y_true == 1])
+
+        if len_h0 and len_h1:
             
-        roc_auc = metrics.auc(fpr, tpr)
-        
-        fig.add_trace(go.Scatter(x=fpr, y=tpr, mode='lines', \
-        name = f'AUC for {name} {column} = {roc_auc:.3f}, count: {len(y_true)},' \
-             + f' H0: {len_h0}, H1: {len_h1}'))
+            roc_auc = metrics.auc(fpr, tpr)
+            
+            fig.add_trace(go.Scatter(x=fpr, y=tpr, mode='lines', \
+            name = f'AUC for {name} {column} = {roc_auc:.3f}'
+                 + f' count: {len(y_true)},' 
+                 + f' H0: {len_h0}, H1: {len_h1}'))
     
     fig.update_layout(title = f'<b>ROC Curve for Predictions by {column}</b>', 
     xaxis=dict(title=f'<b>False Positive Rate</b>'), 
