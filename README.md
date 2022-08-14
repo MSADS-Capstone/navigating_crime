@@ -59,23 +59,23 @@ b. [Los Angeles Crime - Exploratory Overview and Modeling](https://crime-data-la
 
 ### Code Library
 
-I. [Main Notebook](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Main_Notebook.ipynb): This notebook contains the primary code base for the data science portions of the project, consisting of Data Exploration Phase I, Data Preparation, Data Exploration Phase II, and Modeling.  
+I. [Main Notebook](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Main_Notebook.ipynb): this notebook contains the primary code base for the data science portions of the project, consisting of Data Exploration Phase I, Data Preparation, Data Exploration Phase II, and Modeling.  
 
-II. [Python Crime Data Downloader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Downloader.py): This file downloads the data from the LAPD website and filters out non-violent crime.  
+II. [Python Crime Data Downloader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Downloader.py): this file downloads the data from the LAPD website and filters out non-violent crime.  
 
-III. [ArcGIS Data Processing](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/ArcGIS_Data_Processing.py): This file georeferences the downloaded crime data and joins it to LA streets, creating the raw dataset for use in modeling.  
+III. [ArcGIS Data Processing](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/ArcGIS_Data_Processing.py): this file georeferences the downloaded crime data and joins it to LA streets, creating the raw dataset for use in modeling.  
 
-IV. [Data Exploration Phase I](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase1.ipynb): This notebook provides a data report mapping to unique ID fields, column names, data types, null counts, and percentages in the dataframe. It also shows some basic bar graphs for an initial cursory overview of data exploration.  
+IV. [Data Exploration Phase I](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase1.ipynb): this notebook provides a data report mapping to unique ID fields, column names, data types, null counts, and percentages in the dataframe. It also shows some basic bar graphs for an initial cursory overview of data exploration.  
 
-V. [Data Preparation](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_preparation.ipynb): This notebook preprocesses the dataframe, allowing for further exploration to take place and sets the stage for modeling.  
+V. [Data Preparation](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_preparation.ipynb): this notebook preprocesses the dataframe, allowing for further exploration to take place and sets the stage for modeling.  
 
-VI. [Data Exploration Phase II](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase2.ipynb): This notebook takes a more granular look into the columns of interest using boxplots, stacked bar graphs, histograms, and culimates with a correlation matrix.  
+VI. [Data Exploration Phase II](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase2.ipynb): this notebook takes a more granular look into the columns of interest using boxplots, stacked bar graphs, histograms, and culimates with a correlation matrix.  
 
-VII. [Functions](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/functions.py): This file creates functions for data types and various plots that are used throughout the project pipeline.  
+VII. [Functions](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/functions.py): this file creates functions for data types and various plots that are used throughout the project pipeline.  
 
-VIII. [Modeling](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/modeling.ipynb): This notebook contains all of the machine learning algorithms carried out in this project.  
+VIII. [Modeling](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/modeling.ipynb): this notebook contains all of the machine learning algorithms carried out in this project.  
 
-IX. [Python Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Uploader.py): This file processes the final model output.  Creates the final street predictions, dangerous street points, and filtered crime locations datasets.
+IX. [Python Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Uploader.py): this file processes the final model output.  Creates the final street predictions, dangerous street points, and filtered crime locations datasets.
 
 ### Data 
   a. [Data Dictionary](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_dictionary.md)  
