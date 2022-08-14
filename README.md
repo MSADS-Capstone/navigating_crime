@@ -6,9 +6,9 @@
 
 This is a Capstone project for the University of San Diego's M.S. in Applied Data Science program. 
 
-### Project Status: Complete
+## Project Status: Complete
 
-### Installation
+## Installation
 
 To use this project, first clone the repo on your device using the commands below:
 
@@ -16,7 +16,7 @@ To use this project, first clone the repo on your device using the commands belo
 
 `git clone https://github.com/MSADS-Capstone/navigating_crime.git`
 
-### Partner(s)/Contributor(s)  
+## Partner(s)/Contributor(s)  
 **Authors:**  
 * [Leonid Shpaner](https://github.com/lshpaner)  
 * [Christopher Robinson](https://github.com/ChrisRobinsonUSD)  
