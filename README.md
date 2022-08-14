@@ -54,8 +54,8 @@ This project examines pedestrian safety using machine learning and recent crime 
 The project commences by downloading the data from LAPD and filtering out non-violent crime. The data is georeferenced and spatially joined to the Los Angeles street GIS dataset. It is then preprocessed and a flat .csv file is provided for further examination, preprocessing, and modeling. The final model output is then incorporated into a [web mapping application](https://chrisrobinson.maps.arcgis.com/apps/webappviewer/index.html?id=5b3684334cf14070b09650392eecd26b) which allows the end-user to create turn-by-turn directions avoiding dangerous streets. 
 
 ### Web Applications
-    * a. [Los Angeles Crime - Web Mapping Application](https://chrisrobinson.maps.arcgis.com/apps/webappviewer/index.html?id=5b3684334cf14070b09650392eecd26b)  
-    * b. [Los Angeles Crime - Exploratory Overview and Modeling](https://crime-data-la.herokuapp.com/)  
+    a. [Los Angeles Crime - Web Mapping Application](https://chrisrobinson.maps.arcgis.com/apps/webappviewer/index.html?id=5b3684334cf14070b09650392eecd26b)  
+    b. [Los Angeles Crime - Exploratory Overview and Modeling](https://crime-data-la.herokuapp.com/)  
 
 ### Code Library
 
