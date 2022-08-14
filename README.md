@@ -62,40 +62,40 @@ b. [Los Angeles Crime - Exploratory Overview and Modeling](https://crime-data-la
 <div class="tg-wrap"><table>
 <tbody>
   <tr>
-    <td>[Main Notebook](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Main_Notebook.ipynb)</td>
-    <td>this notebook contains the primary   code base for the data science portions of the project, consisting of Data   Exploration Phase I, Data Preparation, Data Exploration Phase II, and   Modeling.  </td>
+    <td><a href="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Main_Notebook.ipynb" target="_blank" rel="noopener noreferrer">Main Notebook</a></td>
+    <td>this notebook contains the primary&nbsp;&nbsp;&nbsp;code base for the data science portions of the project, consisting of Data&nbsp;&nbsp;&nbsp;Exploration Phase I, Data Preparation, Data Exploration Phase II, and&nbsp;&nbsp;&nbsp;Modeling.  </td>
   </tr>
   <tr>
-    <td>[Python Crime Data Downloader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Downloader.py)</td>
-    <td>this file downloads the data from the LAPD website and filters   out non-violent crime.  </td>
+    <td>[Python&nbsp;&nbsp;&nbsp;Crime Data Downloader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Downloader.py)</td>
+    <td>this file downloads the data from the LAPD website and filters&nbsp;&nbsp;&nbsp;out non-violent crime.  </td>
   </tr>
   <tr>
-    <td>[ArcGIS Data Processing](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/ArcGIS_Data_Processing.py)</td>
-    <td>this file georeferences the downloaded crime data and joins it   to LA streets, creating the raw dataset for use in modeling.  </td>
+    <td>[ArcGIS&nbsp;&nbsp;&nbsp;Data Processing](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/ArcGIS_Data_Processing.py)</td>
+    <td>this file georeferences the downloaded crime data and joins it&nbsp;&nbsp;&nbsp;to LA streets, creating the raw dataset for use in modeling.  </td>
   </tr>
   <tr>
-    <td>[Data Preparation](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_preparation.ipynb)</td>
-    <td>this notebook provides a data report mapping to unique ID   fields, column names, data types, null counts, and percentages in the   dataframe. It also shows some basic bar graphs for an initial cursory   overview of data exploration.  </td>
+    <td>[Data&nbsp;&nbsp;&nbsp;Preparation](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_preparation.ipynb)</td>
+    <td>this notebook provides a data report mapping to unique ID&nbsp;&nbsp;&nbsp;fields, column names, data types, null counts, and percentages in the&nbsp;&nbsp;&nbsp;dataframe. It also shows some basic bar graphs for an initial cursory&nbsp;&nbsp;&nbsp;overview of data exploration.  </td>
   </tr>
   <tr>
-    <td>[Data Exploration Phase I](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase1.ipynb)</td>
-    <td>this notebook preprocesses the dataframe, allowing for further   exploration to take place and sets the stage for modeling.  </td>
+    <td>[Data&nbsp;&nbsp;&nbsp;Exploration Phase I](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase1.ipynb)</td>
+    <td>this notebook preprocesses the dataframe, allowing for further&nbsp;&nbsp;&nbsp;exploration to take place and sets the stage for modeling.  </td>
   </tr>
   <tr>
-    <td>[Data Exploration Phase II](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase2.ipynb)</td>
-    <td>this notebook takes a more granular look into the columns of   interest using boxplots, stacked bar graphs, histograms, and culimates with a   correlation matrix.  </td>
+    <td>[Data&nbsp;&nbsp;&nbsp;Exploration Phase II](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase2.ipynb)</td>
+    <td>this notebook takes a more granular look into the columns of&nbsp;&nbsp;&nbsp;interest using boxplots, stacked bar graphs, histograms, and culimates with a&nbsp;&nbsp;&nbsp;correlation matrix.  </td>
   </tr>
   <tr>
     <td>[Functions](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/functions.py)</td>
-    <td>this file creates functions for data types and various plots   that are used throughout the project pipeline.  </td>
+    <td>this file creates functions for data types and various plots&nbsp;&nbsp;&nbsp;that are used throughout the project pipeline.  </td>
   </tr>
   <tr>
     <td>[Modeling](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/modeling.ipynb)</td>
-    <td>this notebook contains all of the machine learning algorithms   carried out in this project.  </td>
+    <td>this notebook contains all of the machine learning algorithms&nbsp;&nbsp;&nbsp;carried out in this project.  </td>
   </tr>
   <tr>
-    <td>[Python Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Uploader.py)</td>
-    <td>this file processes the final model output.  Creates the   final street predictions, dangerous street points, and filtered crime   locations datasets.</td>
+    <td>[Python&nbsp;&nbsp;&nbsp;Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Uploader.py)</td>
+    <td>this file processes the final model output.  Creates the&nbsp;&nbsp;&nbsp;final street predictions, dangerous street points, and filtered crime&nbsp;&nbsp;&nbsp;locations datasets.</td>
   </tr>
 </tbody>
 </table></div>
