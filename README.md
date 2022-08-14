@@ -63,39 +63,39 @@ b. [Los Angeles Crime - Exploratory Overview and Modeling](https://crime-data-la
 <tbody>
   <tr>
     <td><a href="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Main_Notebook.ipynb" target="_blank" rel="noopener noreferrer">Main Notebook</a></td>
-    <td>this notebook contains the primary   code base for the data science portions of the project, consisting of Data   Exploration Phase I, Data Preparation, Data Exploration Phase II, and   Modeling.  </td>
+    <td>This notebook contains the primary code base for the data science portions of the project, consisting of Data Exploration Phase I, Data Preparation, Data Exploration Phase II, and Modeling.  </td>
   </tr>
   <tr>
     <td><a href="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Downloader.py" target="_blank" rel="noopener noreferrer">Python Crime Data Downloader</a></td>
-    <td>this file downloads the data from the LAPD website and filters   out non-violent crime.  </td>
+    <td>This file downloads the data from the LAPD website and filters out non-violent crime.  </td>
   </tr>
   <tr>
     <td><a href="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/ArcGIS_Data_Processing.py" target="_blank" rel="noopener noreferrer">ArcGIS Data Processing</a></td>
-    <td>this file georeferences the downloaded crime data and joins it   to LA streets, creating the raw dataset for use in modeling.  </td>
+    <td>This file georeferences the downloaded crime data and joins it to LA streets, creating the raw dataset for use in modeling.  </td>
   </tr>
   <tr>
     <td><a href="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_preparation.ipynb" target="_blank" rel="noopener noreferrer">Data Preparation</a></td>
-    <td>this notebook provides a data report mapping to unique ID   fields, column names, data types, null counts, and percentages in the   dataframe. It also shows some basic bar graphs for an initial cursory   overview of data exploration.  </td>
+    <td>This notebook provides a data report mapping to unique ID fields, column names, data types, null counts, and percentages in the dataframe. It also shows some basic bar graphs for an initial cursory overview of data exploration.  </td>
   </tr>
   <tr>
     <td><a href="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase1.ipynb" target="_blank" rel="noopener noreferrer">Data Exploration Phase I</a></td>
-    <td>this notebook preprocesses the dataframe, allowing for further   exploration to take place and sets the stage for modeling.  </td>
+    <td>This notebook preprocesses the dataframe, allowing for further exploration to take place and sets the stage for modeling.  </td>
   </tr>
   <tr>
     <td><a href="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/data_exploration_phase2.ipynb" target="_blank" rel="noopener noreferrer">Data Exploration Phase II</a></td>
-    <td>this notebook takes a more granular look into the columns of   interest using boxplots, stacked bar graphs, histograms, and culimates with a   correlation matrix.  </td>
+    <td>This notebook takes a more granular look into the columns of interest using boxplots, stacked bar graphs, histograms, and culminates with a correlation matrix.  </td>
   </tr>
   <tr>
     <td><a href="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/functions.py">Functions</a></td>
-    <td>this file creates functions for data types and various plots   that are used throughout the project pipeline.  </td>
+    <td>This file creates functions for data types and various plots that are used throughout the project pipeline.  </td>
   </tr>
   <tr>
     <td><a href="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/modeling.ipynb">Modeling</a></td>
-    <td>this notebook contains all of the machine learning algorithms   carried out in this project.  </td>
+    <td>This notebook contains all of the machine learning algorithms carried out in this project.  </td>
   </tr>
   <tr>
     <td><a href="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Uploader.py" target="_blank" rel="noopener noreferrer">Python Crime Data Uploader</a></td>
-    <td>this file processes the final model output.  Creates the   final street predictions, dangerous street points, and filtered crime   locations datasets.</td>
+    <td>This file processes the final model output. Creates the final street predictions, dangerous street points, and filtered crime locations datasets.</td>
   </tr>
 </tbody>
 </table></div>
