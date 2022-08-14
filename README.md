@@ -16,8 +16,7 @@ To use this project, first clone the repo on your device using the commands belo
 
 `git clone https://github.com/MSADS-Capstone/navigating_crime.git`
 
-## Partner(s)/Contributor(s)  
-**Authors:**  
+## Partners/Contributors/Authors  
 * [Leonid Shpaner](https://github.com/lshpaner)  
 * [Christopher Robinson](https://github.com/ChrisRobinsonUSD)  
 * [Jose Luis Estrada](https://github.com/jose-luis-estrada)  
