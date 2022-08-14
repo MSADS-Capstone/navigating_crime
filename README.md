@@ -23,6 +23,7 @@ To use this project, first clone the repo on your device using the commands belo
 * [Jose Luis Estrada](https://github.com/jose-luis-estrada)  
 
 # Table of Contents
+--------
 1. [Methods](#Methods)
 2. [Technologies](#Technologies)
 3. [Project Objective](#Project_Objective)
@@ -32,7 +33,7 @@ To use this project, first clone the repo on your device using the commands belo
 7. [Data](#data)
 8. [Project Workflow Diagram](#project-workflow-diagram)
 9. [Visualizations](#visualizations)
-
+--------
 
 ### Methods  
 * Data Exploration  
@@ -78,9 +79,9 @@ VIII. [Modeling](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Co
 IX. [Python Crime Data Uploader](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Code%20Library/Python_CrimeData_Uploader.py): this file processes the final model output.  Creates the final street predictions, dangerous street points, and filtered crime locations datasets.
 
 ### Data 
-[DataFolder](https://github.com/MSADS-Capstone/navigating_crime/tree/main/Data%20Folder)
-     a. [Data Dictionary](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_dictionary.md)  
-     b. [Data Report](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_report.txt)
+* [DataFolder](https://github.com/MSADS-Capstone/navigating_crime/tree/main/Data%20Folder)  
+      a. [Data Dictionary](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_dictionary.md)  
+      b. [Data Report](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Data%20Folder/Reports/data_report.txt)
 
 
 
