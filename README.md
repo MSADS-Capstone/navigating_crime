@@ -123,7 +123,9 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 `The mean is 34.51.`    
 `The standard deviation is 16.86.`      
 `The median is 33.0.`    
-`The distribution is positively skewed.`    
+`The distribution is positively skewed.`   
+
+> Whereas there are more males than females in this dataset, it can be seen from both the regular and normalized distributions, respectively, that more serious crimes occur with a higher prevalence (69,370 or 64.24%) for the former than the latter (28,565 or 41.70%). For sexes unknown, there is a 36.70% prevalence rate for more serious crimes.
 
 | **Victim_Sex** | **Less Serious** | **More Serious** | **Total** | **% More Serious** |
 |---------------:|-----------------:|-----------------:|----------:|-------------------:|
