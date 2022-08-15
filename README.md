@@ -21,7 +21,6 @@ To use this project, first clone the repo on your device using the commands belo
 * [Christopher Robinson](https://github.com/ChrisRobinsonUSD)  
 * [Jose Luis Estrada](https://github.com/jose-luis-estrada)  
 
-<p>
 <img align="left" width="150" height="150" src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Miscellaneous%20Images/shpaner_leonid.jpg">
 
 Leon is a Data Scientist at The Laura P. and Leland K. Whittier Virtual PICU at Children’s Hospital Los Angeles (CHLA). With over 10 years’ experience in analytics and teaching, he has collaborated on a wide variety of projects within financial services, education, personal development, and healthcare. He serves as a course facilitator for Data Analytics and Applied Statistics at Cornell University and is a newly minted lecturer of Statistics in Python for the University of San Diego’s M.S. Applied Artificial Intelligence program.
@@ -31,7 +30,7 @@ For the past 15 years Chris has been working with local government, public safet
 
 <img align="left" width="150" height="150" src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Miscellaneous%20Images/luis_estrada_jose.jpg">
 During his professional career as a data scientist and engineer, Jose has not only revamped his soft skills, but has also demonstrated competitiveness using his analytical and technical skills in several projects and an internship at LinkedIn.
-</p>
+
 # Table of Contents
 --------
 1. [Methods](#Methods)
