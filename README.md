@@ -27,9 +27,12 @@ Leon is a Data Scientist at The Laura P. and Leland K. Whittier Virtual PICU at 
 
 <img align="left" width="150" height="150" src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Miscellaneous%20Images/robinson_chris.jpg">
 For the past 15 years Chris has been working with local government, public safety, energy, and utility clients providing a variety of GIS consulting services. From environmental studies in Alaska to crime reporting in San Diego, Chris has worked in many disciplines at various levels within the GIS industry. Prior to joining Eckersall in 2020, Chris has worked for Michael Baker International, Intrado, Resource Data Inc., EagleView/Pictometry, The Omega Group, and Nielsen. &nbsp;
+</br>
 
 <img align="left" width="150" height="150" src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Miscellaneous%20Images/luis_estrada_jose.jpg">
 During his professional career as a data scientist and engineer, Jose has not only revamped his soft skills, but has also demonstrated competitiveness using his analytical and technical skills in several projects and an internship at LinkedIn. &nbsp;
+
+</br>
 
 # Table of Contents
 --------
