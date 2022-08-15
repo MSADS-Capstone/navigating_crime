@@ -19,7 +19,7 @@ To use this project, first clone the repo on your device using the commands belo
 ## Partners/Contributors/Authors  
 * [Leonid Shpaner](https://github.com/lshpaner) 
 <p align = "left">
-  <img src="https://www.leonshpaner.com/author/leon-shpaner/avatar_hu48de79c369d5f7d4ff8056a297b2c4c5_1681850_270x270_fill_q90_lanczos_center.jpg" style="width:100px;"/>
+  <img src="https://www.leonshpaner.com/author/leon-shpaner/avatar_hu48de79c369d5f7d4ff8056a297b2c4c5_1681850_270x270_fill_q90_lanczos_center.jpg" style="width:150px;"/>
 </p>
 
 <p align = "right">Leon is a Data Scientist at The Laura P. and Leland K. Whittier Virtual PICU at Children’s Hospital Los Angeles (CHLA). With over 10 years’ experience in analytics and teaching, he has collaborated on a wide variety of projects within financial services, education, personal development, and healthcare. He serves as a course facilitator for Data Analytics and Applied Statistics at Cornell University and a newly minted lecturer in Statistics in Python for the University of San Diego’s M.S. Applied Artificial Intelligence program.
