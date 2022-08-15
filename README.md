@@ -149,7 +149,23 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 * Random Forest
 * XGBoost
 
-![]()
+Determining the model for deployment involves a comprehensive inspection of all area under the receiver operating characteristic (AUROC) curves. As you can see here, we have our introductory QDA model with an auc of 0.54, which is barely above the baseline. Logistic regression makes a 10% improvement to an AUC of 0.64, followed by the Decision Tree that adds another 14% to an AUC of 0.78, and performance keeps improving, especially with these more complex tree-based classifiers, where we now see the best performing model of XGB with an auc of 0.94. However, sensitivity and false alarm rates should also be considered as additional measures of performance assessment.
+
+|     Model                      | **    Accuracy   ** | **    Precision   ** | **    Recall   ** | **    F1-score   ** | **    AUC   ** | **    MSE   ** |
+|--------------------------------|:-------------------:|:--------------------:|:-----------------:|:-------------------:|:--------------:|:--------------:|
+| **    QDA   **                 |        0.4953       |         0.6071       |       0.1748      |        0.2715       |      0.5216    |      0.5047    |
+| **    Decision Tree   **       |        0.6217       |         0.6233       |       0.7499      |        0.6807       |      0.6112    |      0.3783    |
+| **    Logistic Regression   ** |        0.6986       |         0.7009       |       0.7668      |        0.7324       |      0.6923    |      0.3021    |
+| **    Random Forest   **       |        0.8496       |         0.8376       |       0.8936      |        0.8647       |      0.8460    |      0.1504    |
+| **    XGBoost   **             |        0.8885       |         0.8894       |       0.9053      |        0.8972       |      0.8871    |      0.1115    |
+
+
+![](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Modeling%20Images/roc_curves.png)
+
+The XGBoost model shows 5,121 true positives (contributing to the highest sensitivity of all models).
+
+![](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Modeling%20Images/xgb_confusion_matrix.png)
+
 
 ## References
 
