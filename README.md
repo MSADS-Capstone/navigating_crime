@@ -33,6 +33,7 @@ For the past 15 years Chris has been working with local government, public safet
 During his professional career as a data scientist and engineer, Jose has not only revamped his soft skills, but has also demonstrated competitiveness using his analytical and technical skills in several projects and an internship at LinkedIn. &nbsp;
 
 </br>
+</br>
 
 # Table of Contents
 --------
