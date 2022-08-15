@@ -110,10 +110,10 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 ### Project Workflow Diagram  
 
 <p align = "center">
-  <img src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/EDA%20Images/Project_Workflow.jpeg">
+  <img src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/project_workflow_diagram.jpeg">
 </p>
 
-### Visualizations
+## Visualizations
 ![](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/EDA%20Images/boxplot1.png)
 
 `Summarizing Vict_Age`      
@@ -139,12 +139,17 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 
 ![](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/EDA%20Images/time_day_stacked_bar.png)
 
-### Modeling  
+> More serious crimes (35,396) occur in the morning than any other time of day. Evening crimes are generally more serious, but account for less crimes in total than those in the morning or afternoon. More serious night crimes account for only 9,814 (approximately 10%) of all such crimes. However, 60% of crimes occurring at night are more serious and crimes in the afternoon give no preference to severity, occurring at about equal rates.  
+
+
+## Modeling & Model Evaluation
 * Quadratic Discriminant Analysis (QDA)
 * Logistic Regression
 * Decision Tree
 * Random Forest
 * XGBoost
+
+![]()
 
 ## References
 
