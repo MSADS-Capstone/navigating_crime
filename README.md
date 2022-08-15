@@ -115,6 +115,8 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 
 ### Visualizations
 * Boxplots
+![](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/EDA%20Images/boxplot1.png)
+
 * Histograms
 * Bar Graphs
 * Correlation Matrix
