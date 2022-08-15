@@ -231,6 +231,7 @@ def stacked_plot (x, y, p, df, col, truth, condition, kind, title1, xlabel1,
                                  ax=flat[0], 
                                  color=['#00BFC4', '#F8766D'], width=width, 
                                  rot=rot, fontsize=12)
+    flat[0].set_title(label=title1, fontsize=12)
     flat[0].set_xlabel(xlabel1, fontsize=12)
     flat[0].set_ylabel(ylabel1, fontsize=12)
     flat[0].legend(fontsize=12)
@@ -240,6 +241,8 @@ def stacked_plot (x, y, p, df, col, truth, condition, kind, title1, xlabel1,
                                          ax=flat[1], color=['#00BFC4', 
                                                             '#F8766D'], 
                                          width=width, rot=rot, fontsize=12)
+    flat[1].set_title(label=title2, fontsize=12)                                     
     flat[1].set_xlabel(xlabel2, fontsize=12)
     flat[1].set_ylabel(ylabel2, fontsize=12)
     flat[1].legend(fontsize=12)
+    fig.align_ylabels()
