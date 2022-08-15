@@ -32,6 +32,10 @@ To use this project, first clone the repo on your device using the commands belo
 7. [Data](#data)
 8. [Project Workflow Diagram](#project-workflow-diagram)
 9. [Visualizations](#visualizations)
+10. [Modeling & Model Evaluation](#modeling_&_model_evaluation)
+11. [References](#references)
+12. [License](#license)
+13. [Acknowledements](#acknowledgements)
 --------
 
 ### Methods  
@@ -162,10 +166,9 @@ Determining the model for deployment involves a comprehensive inspection of all 
 
 ![](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Modeling%20Images/roc_curves.png)
 
-The XGBoost model shows 5,121 true positives (contributing to the highest sensitivity of all models).
+## Conclusion
 
-![](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Modeling%20Images/xgb_confusion_matrix.png)
-
+During this project, some key considerations came to light regarding safely navigating potentially dangerous areas. Model outcomes alone would likely not be sufficient for ensuring safety with a significant degree of confidence. While historical crime data adds a layer of information, more information may be required to get a complete picture of safety in a particular area. There may be other factors associated with location and crime that contribute to safety. For example, lighting and the presence of other people are not currently considered but could be useful for evaluating safety. To avoid a potentially dangerous main street, an individual may decide to alter their course and travel along an adjacent side street. An argument could be made that the side street may be more dangerous than the main street because of unknown factors. The side street could also have less crime because it is traveled less often. It can be difficult to identify the main factors that contribute to safety because those factors may be different depending on location. Ultimately, there may not be a safe route, and the safest option is to avoid the area altogether. Routing applications, such as the one created for this project, are best suited for planning purposes so that individuals can identify safer pedestrian routes prior to traveling.
 
 ## References
 
@@ -194,3 +197,12 @@ Tarkelar, S., Bhat, A., Pandhe, S., & Halarnkar, T. (2016). Algorithm to Determi
 Vandeviver, C. (2014). Applying Google Maps and Google Street View in criminological research. *Crime Science, 3*(1). https://doi.org/10.1186/s40163-014-0013-2  
 
 Wang, Y. Li, Y., Yong S., Rong, X., Zhang, S. (2017). Improvement of ID3 algorithm based on simplified information entropy and coordination degree. *2017 Chinese Automation Congress (CAC)*, 1526-1530. https://doi.org/10.1109/CAC.2017.8243009
+
+
+## License
+Copyright (c) 2022, Leonid Shpaner, Christopher Robinson, and Jose Luis Estrada.
+
+All source code and software in this repository are made available under the terms of the [MIT license](https://opensource.org/licenses/MIT).
+
+## Acknowledgements
+Thank you Professor Dr. Tarshizi for your guidance in facilitating this capstone project. Moreover, thank you to everyone involved as contributors to this repository.
