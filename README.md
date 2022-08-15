@@ -33,9 +33,10 @@ To use this project, first clone the repo on your device using the commands belo
 8. [Project Workflow Diagram](#project-workflow-diagram)
 9. [Visualizations](#visualizations)
 10. [Modeling & Model Evaluation](#modeling_&_model_evaluation)
-11. [References](#references)
-12. [License](#license)
-13. [Acknowledements](#acknowledgements)
+11. [Conclusion](#conclusion)
+12. [References](#references)
+13. [License](#license)
+14. [Acknowledements](#acknowledgements)
 --------
 
 ### Methods  
