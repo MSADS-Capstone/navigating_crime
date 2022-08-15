@@ -137,7 +137,7 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 |      **Total** |            82770 |           100381 |    183151 |              54.81 |
 
 
-
+![](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/EDA%20Images/time_day_stacked_bar.png)
 
 ### Modeling  
 * Quadratic Discriminant Analysis (QDA)
