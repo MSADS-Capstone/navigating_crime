@@ -117,6 +117,17 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 * Boxplots
 ![](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/EDA%20Images/boxplot1.png)
 
+`Summarizing Vict_Age
+The first quartile is 24.0. 
+The third quartile is 46.0. 
+The IQR is 22.0.
+The mean is 34.51.
+The standard deviation is 16.86.
+The median is 33.0.
+The distribution is positively skewed.`
+
+
+
 * Histograms
 * Bar Graphs
 * Correlation Matrix
