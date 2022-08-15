@@ -114,7 +114,6 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 </p>
 
 ### Visualizations
-* Boxplots
 ![](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/EDA%20Images/boxplot1.png)
 
 `Summarizing Vict_Age`      
@@ -125,6 +124,13 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 `The standard deviation is 16.86.`      
 `The median is 33.0.`    
 `The distribution is positively skewed.`    
+
+| **Victim_Sex** | **Less Serious** | **More Serious** | **Total** | **% More Serious** |
+|---------------:|-----------------:|-----------------:|----------:|-------------------:|
+|          **F** |            39936 |            28565 |     68501 |              41.70 |
+|          **M** |            38615 |            69370 |    107985 |              64.24 |
+|          **X** |             4219 |             2446 |      6665 |              36.70 |
+|      **Total** |            82770 |           100381 |    183151 |              54.81 |
 
 
 
