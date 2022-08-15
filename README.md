@@ -24,9 +24,10 @@ To use this project, first clone the repo on your device using the commands belo
 
 ### You're Breathtaking
 
-<img align="left" width="100" height="100" src="https://media.tenor.com/images/6a136e1c2d7b30298a5b657348097a60/tenor.gif">
+<img align="left" width="150" height="150" src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Miscellaneous%20Images/shpaner_leonid.jpg">
 
-At the 2019 rendition of E3, an eccentric gamer in attendance interrupted Keanu Reeves' presentation of the role-playing game (RPG) Cyberpunk 2077, loudly claiming, “"You're breathtaking,"” which was directed at the actor-cum-presenter. The image macro used to build the "You're Breathtaking" meme generally features a still of Keanu Reeves pointing at someone in the audience in front of him - that someone is Peter Sark, though there are no images from Keanu's point of view that have since been used as part of the "You're Breathtaking" meme.
+Leon is a Data Scientist at The Laura P. and Leland K. Whittier Virtual PICU at Children’s Hospital Los Angeles (CHLA). With over 10 years’ experience in analytics and teaching, he has collaborated on a wide variety of projects within financial services, education, personal development, and healthcare. He serves as a course facilitator for Data Analytics and Applied Statistics at Cornell University and is a newly minted lecturer of Statistics in Python for the University of San Diego’s M.S. Applied Artificial Intelligence program.
+
 
 # Table of Contents
 --------
