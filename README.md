@@ -23,7 +23,7 @@ To use this project, first clone the repo on your device using the commands belo
 
 <img align="left" width="150" height="150" src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Miscellaneous%20Images/shpaner_leonid.jpg">
 
-Leon is a Data Scientist at The Laura P. and Leland K. Whittier Virtual PICU at Children’s Hospital Los Angeles (CHLA). With over 10 years’ experience in analytics and teaching, he has collaborated on a wide variety of projects within financial services, education, personal development, and healthcare. He serves as a course facilitator for Data Analytics and Applied Statistics at Cornell University and is a newly minted lecturer of Statistics in Python for the University of San Diego’s M.S. Applied Artificial Intelligence program.
+Leonid (Leon) is a Data Scientist at The Laura P. and Leland K. Whittier Virtual PICU at Children’s Hospital Los Angeles (CHLA). With over 10 years’ experience in analytics and teaching, he has collaborated on a wide variety of projects within financial services, education, personal development, and healthcare. He serves as a course facilitator for Data Analytics and Applied Statistics at Cornell University and is a newly minted lecturer of Statistics in Python for the University of San Diego’s M.S. Applied Artificial Intelligence program.
 
 <img align="left" width="150" height="150" src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Miscellaneous%20Images/robinson_chris.jpg">
 For the past 15 years Chris has been working with local government, public safety, energy, and utility clients providing a variety of GIS consulting services. From environmental studies in Alaska to crime reporting in San Diego, Chris has worked in many disciplines at various levels within the GIS industry. Prior to joining Eckersall in 2020, Chris has worked for Michael Baker International, Intrado, Resource Data Inc., EagleView/Pictometry, The Omega Group, and Nielsen. &nbsp; &nbsp; 
@@ -171,13 +171,13 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 
 Determining the model for deployment involves a comprehensive inspection of all area under the receiver operating characteristic (AUROC) curves. As you can see here, we have our introductory QDA model with an auc of 0.54, which is barely above the baseline. Logistic regression makes a 10% improvement to an AUC of 0.64, followed by the Decision Tree that adds another 14% to an AUC of 0.78, and performance keeps improving, especially with these more complex tree-based classifiers, where we now see the best performing model of XGB with an auc of 0.94. However, sensitivity and false alarm rates should also be considered as additional measures of performance assessment.
 
-|     Model                      | **    Accuracy   ** | **    Precision   ** | **    Recall   ** | **    F1-score   ** | **    AUC   ** | **    MSE   ** |
-|--------------------------------|:-------------------:|:--------------------:|:-----------------:|:-------------------:|:--------------:|:--------------:|
-| **    QDA   **                 |        0.4953       |         0.6071       |       0.1748      |        0.2715       |      0.5216    |      0.5047    |
-| **    Decision Tree   **       |        0.6217       |         0.6233       |       0.7499      |        0.6807       |      0.6112    |      0.3783    |
-| **    Logistic Regression   ** |        0.6986       |         0.7009       |       0.7668      |        0.7324       |      0.6923    |      0.3021    |
-| **    Random Forest   **       |        0.8496       |         0.8376       |       0.8936      |        0.8647       |      0.8460    |      0.1504    |
-| **    XGBoost   **             |        0.8885       |         0.8894       |       0.9053      |        0.8972       |      0.8871    |      0.1115    |
+|     **Model**           | **Accuracy**        | **Precision**        | **Recall**        | ***F1*-score**      | **AUC**        | **MSE**        |
+|-------------------------|:-------------------:|:--------------------:|:-----------------:|:-------------------:|:--------------:|:--------------:|
+| **QDA**                 |        0.4953       |         0.6071       |       0.1748      |        0.2715       |      0.5216    |      0.5047    |
+| **Decision Tree**       |        0.6217       |         0.6233       |       0.7499      |        0.6807       |      0.6112    |      0.3783    |
+| **Logistic Regression** |        0.6986       |         0.7009       |       0.7668      |        0.7324       |      0.6923    |      0.3021    |
+| **Random Forest**       |        0.8496       |         0.8376       |       0.8936      |        0.8647       |      0.8460    |      0.1504    |
+| **XGBoost**             |        0.8885       |         0.8894       |       0.9053      |        0.8972       |      0.8871    |      0.1115    |
 
 
 ![](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Modeling%20Images/roc_curves.png)
