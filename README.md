@@ -21,25 +21,12 @@ To use this project, first clone the repo on your device using the commands belo
 * [Christopher Robinson](https://github.com/ChrisRobinsonUSD)  
 * [Jose Luis Estrada](https://github.com/jose-luis-estrada)  
 
-<div class="tg-wrap"><table>
-<tbody>
-  <tr>
-    <td> ![Leonid   Shpaner](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Miscellaneous%20Images/shpaner_leonid.jpg)</td>
-    <td>Leon is a Data Scientist at   The Laura P. and Leland K. Whittier Virtual PICU at Children’s Hospital Los   Angeles (CHLA). With over 10 years’ experience in analytics and teaching, he   has collaborated on a wide variety of projects within financial services,   education, personal development, and healthcare. He serves as a course   facilitator for Data Analytics and Applied Statistics at Cornell University   and is a newly minted lecturer of Statistics in Python for the University of   San Diego’s M.S. Applied Artificial Intelligence program.</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>![Christopher   Robinson](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Miscellaneous%20Images/robinson_chris.jpg)</td>
-    <td>For the past   15 years Chris has been working with local government, public safety, energy,   and utility clients providing a variety of GIS consulting services. From   environmental studies in Alaska to crime reporting in San Diego, Chris has   worked in many disciplines at various levels within the GIS industry. Prior   to joining Eckersall in 2020, Chris has worked for Michael Baker   International, Intrado, Resource Data Inc., EagleView/Pictometry, The Omega   Group, and Nielsen. Chris has a genuine curiosity for spatial technology,   which has led him to increase his proficiency with ESRI products, Python and   SQL scripting to automate the recurring conversion, QC, and deployment of   geodatabases containing millions of records.  Chris has a solid   understanding of mapping and managing complex utility distribution and   transmission systems.</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>![Jose Luis   Estrada](https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Miscellaneous%20Images/luis_estrada_jose.jpg)</td>
-    <td>During his professional career as a data scientist and   engineer, Jose has not only revamped his soft skills, but has also   demonstrated competitiveness using his analytical and technical skills in   several projects and an internship at LinkedIn.</td>
-    <td></td>
-  </tr>
-</tbody>
-</table></div>
+
+### You're Breathtaking
+
+<img align="right" width="100" height="100" src="https://media.tenor.com/images/6a136e1c2d7b30298a5b657348097a60/tenor.gif">
+
+At the 2019 rendition of E3, an eccentric gamer in attendance interrupted Keanu Reeves' presentation of the role-playing game (RPG) Cyberpunk 2077, loudly claiming, “"You're breathtaking,"” which was directed at the actor-cum-presenter. The image macro used to build the "You're Breathtaking" meme generally features a still of Keanu Reeves pointing at someone in the audience in front of him - that someone is Peter Sark, though there are no images from Keanu's point of view that have since been used as part of the "You're Breathtaking" meme.
 
 # Table of Contents
 --------
