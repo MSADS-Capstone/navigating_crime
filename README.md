@@ -30,7 +30,8 @@ To use this project, first clone the repo on your device using the commands belo
 
 <img align="left" width="150" height="150" src="https://github.com/MSADS-Capstone/navigating_crime/blob/main/Image%20Folder/Miscellaneous%20Images/luis_estrada_jose.jpg">
 
-[Jose Luis Estrada](https://github.com/jose-luis-estrada)  - During his professional career as a data scientist and engineer, Jose has not only revamped his soft skills, but has also demonstrated competitiveness using his analytical and technical skills in several projects and an internship at LinkedIn. &nbsp; &nbsp;
+[Jose Luis Estrada](https://github.com/jose-luis-estrada)  - During his professional career as a data scientist and engineer, Jose has not only revamped his soft skills, but has also demonstrated competitiveness using his analytical and technical skills in several projects and an internship at LinkedIn. &nbsp; &nbsp; &nbsp;
+</br>
 </br>
 </br>
 </br>
