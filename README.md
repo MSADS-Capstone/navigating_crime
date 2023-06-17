@@ -75,7 +75,7 @@ The project commences by downloading the data from LAPD and filtering out non-vi
 
 ### Web Applications
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. [Los Angeles Crime - Web Mapping Application](https://chrisrobinson.maps.arcgis.com/apps/webappviewer/index.html?id=5b3684334cf14070b09650392eecd26b)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. [Los Angeles Crime - Exploratory Overview and Modeling](https://crime-data-la.herokuapp.com/)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. [Los Angeles Crime - Exploratory Overview and Modeling](https://la-crime-data-dashboard.onrender.com/)  
 
 ### Code Library
 
